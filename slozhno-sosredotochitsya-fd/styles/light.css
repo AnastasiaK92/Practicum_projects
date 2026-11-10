@@ -1,0 +1,46 @@
+/*
+  Специально для светлой темы при наличии класса.
+  Здесь окажутся стили, которые нужно переопределить принудительно,
+  переключая тему
+*/
+:root.theme-light {
+  /* сохраните этот селектор в приведённом виде.
+    Так стили написанные ниже будут иметь больший вес,
+    чем стили в медиазапросе предпочтений пользователя
+  */
+  --text-primary: #ffc2e6;
+  --accent-color: #ff8dcb;
+  --decor-color: #353430;
+  --menu-text-color: #353430;
+  --heading-2-color: #353430;
+  --body-text-color: #353430;
+  --title-guide-color: #353430;
+  --bg-image: url("../images/cover-image-light.png");
+  --background-color: #ffeef6;
+  --border-color-active: #353430;
+  --button-border-hover-color: rgba(50, 49, 45, 0.4);
+  --button-border-focus-color: #353430;
+  --link-hover-color: #353430;
+  --link-focus-color: #353430;
+  --header-decor: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --text-primary: #ffc2e6;
+    --accent-color: #ff8dcb;
+    --decor-color: #353430;
+    --menu-text-color: #353430;
+    --heading-2-color: #353430;
+    --body-text-color: #353430;
+    --title-guide-color: #353430;
+    --bg-image: url("../images/cover-image-light.png");
+    --background-color: #ffeef6;
+    --border-color-active: #353430;
+    --button-border-hover-color: rgba(50, 49, 45, 0.4);
+    --button-border-focus-color: #353430;
+    --link-hover-color: #353430;
+    --link-focus-color: #353430;
+    --header-decor: none;
+  }
+}

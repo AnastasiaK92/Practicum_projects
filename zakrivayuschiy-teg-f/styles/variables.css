@@ -1,0 +1,59 @@
+/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  /*шрифт*/
+  --font-press-start: "PressStart2P", monospace;
+  --font-inter: "Inter", sans-serif;
+  /*вес шрифта*/
+  --font-press-start-normal: 410;
+  --font-press-start-bold: 715;
+  --gradient-primary: repeating-linear-gradient(
+      to right,
+      #d3d3d3 0px,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      #d3d3d3 0px,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(#e7e7e7 0.01%, #1a1a1a 100%);
+  /*Ширина блока*/
+  --flex-width: clamp(375px, calc(260.56px + 30.52vw), 700px);
+  /*резиновые падинги*/
+  --padding-vertical: clamp(
+    122px,
+    calc(122px + 8 * (100vw - 375px) / 1065),
+    130px
+  );
+  --padding-horizontal: clamp(
+    16px,
+    calc(16px + 106.5 * (100vw - 375px) / 1065),
+    122.5px
+  );
+  /*заголовок h1*/
+  --headingPrimary: clamp(3.0625rem, 1.9087rem + 4.9231vw, 4.0625rem);
+  /*подзаголовок шапки*/
+  --subheading: clamp(0.875rem, 0.226rem + 2.7692vw, 1.4375rem);
+  /*Заголовок секции*/
+  --sectionTitleFontSize: 18px;
+  /*параграф секции*/
+  --paragraphFontSize: 18px;
+  /*Цвет обводки лейбла*/
+  --label-text-stroke-color: rgba(255, 255, 255, 0.5);
+  /*цвет контура сердца*/
+  --icon-stroke-color: #000;
+  /*цвет искр сердца*/
+  --contour-color: #ff0000;
+  /*цвет заливки анимации*/
+  --animation-fill-color: #ff0000;
+  /*цвет заливки сердца hover*/
+  --fill-color-hover: #000;
+  /*цвет заливки active*/
+  --fill-color-active: #ff0000;
+  /*цвет фона и обводки при эффектах*/
+  --color-mix: #000;
+}

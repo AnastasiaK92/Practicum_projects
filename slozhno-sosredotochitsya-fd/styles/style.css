@@ -1,0 +1,458 @@
+/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
+.header_title {
+  font-weight: 700;
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  line-height: 83%;
+  color: var(--text-primary);
+  text-shadow: 4px 4px 0 var(--accent-color);
+  justify-self: stretch;
+  width: 100%;
+  display: block;
+  padding-block-start: 13px;
+}
+
+.header_subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.3;
+  justify-self: start;
+  align-self: start;
+}
+
+.title-decor {
+  color: var(--text-color);
+  background-color: var(--accent-color);
+}
+
+.header {
+  block-size: 100vh;
+  min-block-size: 668px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 53px;
+  padding-inline-start: 10px;
+  padding-inline-end: 10px;
+  padding-block-start: 78px;
+  position: relative;
+  align-content: start;
+}
+
+.corner-decoration::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border: 1px solid var(--decor-color);
+  top: 10px;
+  right: 10px;
+  border-inline-start: none;
+  border-block-end: none;
+}
+
+.corner-decoration::before {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border: 1px solid var(--decor-color);
+  bottom: 10px;
+  left: 10px;
+  border-inline-end: none;
+  border-block-start: none;
+}
+
+.header__theme-menu {
+  justify-self: end;
+}
+
+.page {
+  /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+  background-image: var(--bg-image);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-color: var(--background-color);
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 100%;
+  width: 100%;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.text-link {
+  text-shadow: 2px 2px 1px var(--accent-color);
+  text-decoration: none;
+}
+
+.header__theme-menu-button {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  color: var(--menu-text-color);
+  background-color: transparent;
+  border: none;
+  text-transform: lowercase;
+  padding-inline-start: 13px;
+  padding-inline-end: 13px;
+  padding-block-end: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__theme-menu-button_active {
+  pointer-events: none;
+  border: 1px solid var(--border-color-active);
+  display: block;
+  background-color: transparent;
+}
+
+.header__theme-menu-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 11px;
+}
+
+.decorative-rec {
+  display: var(--header-decor);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.3;
+  color: var(--accent-color);
+  position: absolute;
+  top: 12px;
+  right: 38px;
+}
+
+.decorative-rec::after {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 44px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: var(--decor-color);
+  box-shadow: 0 0 4px var(--shadow-decor-color);
+}
+/*вынесла общие свойства в общий класс*/
+.attention-guide {
+  display: grid;
+  font-size: 18px;
+  line-height: 1.3;
+  font-weight: 700;
+}
+
+.section_title {
+  color: var(--heading-2-color);
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.image-gallery {
+  gap: 10px;
+  padding-block-start: 30px;
+}
+
+.main-heading {
+  padding-block-start: 31px;
+  padding-block-end: 19px;
+}
+
+.title-attention {
+  padding-block-start: 31px;
+  padding-block-end: 19px;
+}
+
+.section_title_sub {
+  color: var(--text-color);
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.title_why {
+  padding-block-end: 19px;
+}
+
+.section_text {
+  color: var(--body-text-color);
+  font-weight: 400;
+  padding-block-start: 9px;
+  padding-block-end: 21px;
+}
+
+.tip-title {
+  color: var(--text-color);
+  font-weight: 400;
+}
+
+.mindfulness-tip {
+  margin-block-start: 20px;
+}
+
+.title-guide {
+  font-size: 18px;
+}
+
+.fig-themed-collection {
+  display: grid;
+  gap: 10px;
+}
+
+.gallery-img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.content {
+  padding-inline-start: 10px;
+  padding-inline-end: 10px;
+  padding-block-end: 40px;
+  padding-block-start: 41px;
+}
+
+.footer-centered {
+  block-size: 100vh;
+  min-block-size: 668px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.footer_title {
+  font-weight: 700;
+  font-size: 116px;
+  line-height: 83%;
+  color: var(--text-primary);
+  text-shadow: 2px 2px 0 var(--accent-color);
+  padding-block-start: 4px;
+}
+
+.header__theme-menu-button:hover {
+  outline: 1px solid var(--button-border-hover-color);
+}
+
+.header__theme-menu-button:focus-visible {
+  border-block-end: 1px solid var(--button-border-focus-color);
+  outline: none;
+}
+
+.text-link:hover {
+  border-block-end: 1px solid var(--link-hover-color);
+  outline: none;
+}
+
+.text-link:focus-visible {
+  border: 1px solid var(--link-focus-color);
+  outline: none;
+}
+
+@media (width >= 768px) {
+  .header {
+    min-block-size: 1024px;
+    padding-block-start: 194px;
+    gap: 160px;
+    margin-inline-end: 7px;
+  }
+
+  .header__theme-menu-list {
+    justify-self: end;
+    padding-inline-end: 0;
+  }
+
+  .header_title {
+    justify-self: start;
+    margin-inline-start: -30px;
+  }
+
+  .header_subtitle {
+    justify-self: end;
+    max-width: 50%;
+    min-width: 364px;
+  }
+
+  .decorative-rec {
+    top: 21px;
+  }
+
+  .corner-decoration::after {
+    top: 20px;
+    right: 10px;
+  }
+
+  .corner-decoration::before {
+    bottom: 20px;
+    left: 0;
+  }
+
+  .main-heading {
+    padding-block-start: 60px;
+    max-width: 236px;
+  }
+
+  .content {
+    padding-inline-start: 1px;
+  }
+
+  .section-why-focus-hard {
+    grid-template-columns: 1fr 2fr;
+    gap: 18px;
+    padding-block-start: 19px;
+    padding-inline-end: 7px;
+  }
+
+  .title_why {
+    grid-column: 1/2;
+    padding-inline-end: 3px;
+  }
+
+  .card_why {
+    grid-column: 2/3;
+  }
+
+  .section-concentration-guide {
+    grid-template-columns: 1fr 2fr;
+    padding-block-start: 30px;
+    gap: 15px;
+  }
+
+  .title-attention {
+    grid-column: 1/2;
+  }
+
+  .threat-list {
+    padding-inline-end: 7px;
+  }
+
+  .article-tips-block {
+    grid-column: 2/3;
+    padding-block-start: 31px;
+    padding-inline-end: 7px;
+  }
+
+  .fig-themed-collection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    max-height: 780px;
+    margin-block-start: 10px;
+  }
+
+  .image-gallery {
+    margin-inline-end: 7px;
+    margin-block-start: 30px;
+  }
+
+  .img_sunset {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+
+  .img_ice-cream {
+    grid-column: 3/4;
+    grid-row: 1/3;
+  }
+
+  .img_tape {
+    grid-column: 1/2;
+    grid-row: 2/5;
+  }
+
+  .img_books {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+
+  .img_street {
+    grid-column: 2/4;
+    grid-row: 3/5;
+  }
+
+  .gallery-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .page {
+    padding-inline-start: 20px;
+    padding-inline-end: 3px;
+  }
+
+  .footer-centered {
+    margin-block-start: 21px;
+    margin-inline-end: 19px;
+  }
+
+  .footer-centered.corner-decoration::after {
+    right: -2px;
+    top: 19px;
+  }
+
+  .footer-centered.corner-decoration::before {
+    bottom: 21px;
+    left: 0;
+  }
+}
+
+@media (width >= 1024px) {
+  .header {
+    min-block-size: 768px;
+    padding-block-start: 20px;
+    gap: 114px;
+  }
+
+  .header_subtitle {
+    min-width: 491px;
+  }
+
+  .header_title {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    padding-block-start: 159px;
+  }
+
+  .threat-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding-block-start: 1px;
+  }
+
+  .header__theme-menu-list {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+
+  .header__theme-menu {
+    justify-self: center;
+    padding-right: 11px;
+  }
+
+  .section-why-focus-hard {
+    gap: 9px;
+    padding-block-start: 19px;
+  }
+
+  .main-heading {
+    max-width: 315px;
+  }
+
+  .section-concentration-guide {
+    gap: 6px;
+    padding-block-start: 29px;
+  }
+
+  .fig-themed-collection {
+    max-height: 1048px;
+  }
+
+  .footer_title {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
+}
