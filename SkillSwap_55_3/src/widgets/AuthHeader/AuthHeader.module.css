@@ -1,0 +1,21 @@
+/* Разводим логотип и кнопку по краям шапки. */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 84px;
+  padding: var(--space-36) var(--space-36) 0;
+  background-color: var(--color-background);
+}
+
+/* Убираем базовую границу для точного размера по макету. */
+.closeButton {
+  border: none;
+}
+
+/* Добавляем локальное hover-состояние без подчёркивания. */
+.closeButton:hover:not(:disabled) {
+  background-color: var(--color-accent-hover);
+  text-decoration: none;
+}

@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.title {
+  font-family: var(--font-body), sans-serif;
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-h4);
+  line-height: var(--line-height-h4);
+  letter-spacing: var(--letter-spacing-caption);
+  vertical-align: middle;
+}
+
+.tagsBlockContainer {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+}
+
+.tagsContainer {
+  display: flex;
+  gap: var(--space-4);
+  width: 100%;
+}
+
+.spacious {
+  gap: var(--space-24);
+}
+
+.spacious .tagsContainer {
+  gap: var(--space-8);
+}
+
+.spacious .tagsBlockContainer {
+  gap: 14px;
+}

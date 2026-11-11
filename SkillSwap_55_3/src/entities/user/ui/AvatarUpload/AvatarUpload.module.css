@@ -1,0 +1,88 @@
+.avatarUpload {
+  padding: 0;
+  min-height: 0;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50%;
+}
+
+.small {
+  width: 72px;
+  height: 72px;
+}
+
+.large {
+  width: 244px;
+  height: 244px;
+}
+
+.emptyContent {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.userIcon {
+  width: 100%;
+  height: 100%;
+  color: var(--color-text);
+}
+
+.userIcon path {
+  vector-effect: non-scaling-stroke;
+}
+
+.add {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: var(--color-accent);
+}
+
+.addIcon {
+  width: 16px;
+  height: 16px;
+  color: var(--color-surface);
+}
+
+.previewContent {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.avatarImage {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-left: var(--space-12);
+}
+
+.editActionLarge {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: var(--color-accent-hover);
+}
+
+
+.editIconLarge {
+  width: 24px;
+  height: 24px;
+  color: var(--color-text);
+}

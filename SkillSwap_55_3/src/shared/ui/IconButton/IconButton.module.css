@@ -1,0 +1,31 @@
+.iconButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: var(--radius-md);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconButton:hover:not(:disabled) {
+  color: var(--color-accent-hover);
+}
+
+.iconButton:active:not(:disabled) {
+  color: var(--color-accent);
+}
+
+.iconButton:disabled {
+  color: var(--color-disabled-text);
+  cursor: not-allowed;
+}

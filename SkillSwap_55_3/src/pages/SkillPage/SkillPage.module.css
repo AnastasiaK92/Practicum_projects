@@ -1,0 +1,78 @@
+/* Ограничивает ширину страницы размером макета и центрирует её */
+.page {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Располагает основной блок и похожие предложения вертикально */
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-60);
+  margin: var(--space-40) var(--space-36) var(--space-60);
+}
+
+/* Формирует колонки профиля и информации о навыке */
+.content {
+  display: grid;
+  grid-template-columns: 324px minmax(0, 1fr);
+  gap: var(--space-24);
+}
+
+/* Позволяет карточке пользователя корректно сжиматься внутри Grid */
+.userProfileCard {
+  min-width: 0;
+}
+
+/* Оформляет правую карточку с информацией о навыке */
+.skill {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: var(--space-24);
+  padding:
+    var(--space-32)
+    calc(var(--space-48) + var(--space-4))
+    var(--space-40);
+  border-radius: var(--radius-md);
+  background-color: var(--color-surface);
+}
+
+/* Располагает кнопки действий у правого края карточки */
+.skillActions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Формирует текстовую и галерейную колонки внутри карточки */
+.skillContent {
+  display: grid;
+  grid-template-columns: 400px 440px;
+  justify-content: space-between;
+  align-items: stretch;
+  min-height: 0;
+}
+
+/* Объединяет описание навыка и кнопку предложения обмена */
+.skillInfo {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: var(--space-24);
+}
+
+/* Прижимает кнопку предложения обмена к нижней части колонки */
+.offerButton {
+  margin-top: auto;
+}
+
+/* Позволяет галерее корректно размещаться внутри своей колонки */
+.skillGallery {
+  min-width: 0;
+}
+
+/* Задаёт фон области с подвалом страницы */
+.footer {
+  background-color: var(--color-surface);
+}

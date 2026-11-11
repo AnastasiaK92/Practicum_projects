@@ -1,0 +1,111 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-40);
+  padding: var(--space-36) var(--space-36) var(--space-20);
+  background: var(--color-background);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: var(--space-24);
+}
+
+.navLink {
+  display: flex;
+  align-items: center;
+  gap: var(--space-8);
+  font-family: var(--font-body);
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-regular);
+  color: var(--color-text);
+  transition: color 0.2s;
+  line-height: var(--line-height-body);
+}
+
+.navLink:hover {
+  color: var(--color-accent-pressed);
+}
+
+.chevron {
+  width: var(--icon-size);
+  height: var(--icon-size);
+  transition: transform 0.2s;
+}
+
+.chevronOpen {
+  transform: rotate(180deg);
+}
+
+.dropdownPanel {
+  /* Позиционирует меню относительно всей ширины Header. */
+  position: absolute;
+  top: calc(100% - 10px);
+  left: var(--space-36);
+  z-index: 200;
+}
+
+.search {
+  flex: 1;
+  max-width: 100%;
+}
+
+.searchField {
+  border: none;
+  background-color: var(--color-surface);
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap:var(--space-20);
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+.authButtons {
+  display: flex;
+  align-items: center;
+  gap: var(--space-8);
+}
+
+.loginBtn {
+  height: var(--control-height);
+  padding: 0 var(--space-20);
+  border: 1px solid var(--color-accent);
+  border-radius: var(--radius-md);
+  background: transparent;
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-h4);
+  letter-spacing: var(--letter-spacing-caption);
+  transition: border-color 0.2s;
+}
+
+.loginBtn:hover {
+  border-color: var(--color-accent-pressed);
+}
+
+.registerBtn {
+  height: var(--control-height);
+  padding: 0 var(--space-24);
+  border-radius: var(--radius-md);
+  background: var(--color-accent);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-size: var(--font-size-body);
+  font-weight: var( --font-weight-regular);
+  transition: background 0.2s;
+  line-height: var(--line-height-h3);
+  letter-spacing: var(--letter-spacing-caption);
+}
+
+.registerBtn:hover {
+  background: var(--color-accent-hover);
+}

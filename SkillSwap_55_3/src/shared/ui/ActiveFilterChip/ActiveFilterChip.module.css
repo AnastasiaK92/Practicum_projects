@@ -1,0 +1,24 @@
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-8);
+  padding: 12px 24px;
+  border-radius: var(--radius-pill);
+  background-color: var(--color-surface); /* #FFFFFF */
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+  white-space: nowrap;
+}
+
+.removeButton {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  color: var(--color-text); 
+}
+
+.removeButton:hover {
+  color: var(--color-text); 
+}

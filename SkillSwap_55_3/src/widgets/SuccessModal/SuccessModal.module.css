@@ -1,0 +1,10 @@
+/**
+ * src/widgets/SuccessModal/SuccessModal.module.css — VERST-60
+ * Только переопределение размера/паддингов Modal под макет — содержимое
+ * целиком приходит из StatusModalContent, здесь оно не дублируется.
+ */
+
+ .modal {
+  max-inline-size: 556px;
+  padding: 80px var(--space-60);
+}

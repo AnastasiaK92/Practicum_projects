@@ -1,0 +1,10 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+  width: 324px;
+  height: 100%;
+  padding: var(--space-40);
+  background: var(--color-surface);
+  border-radius: var(--radius-pill);
+}

@@ -1,0 +1,113 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  position: relative;
+  width: 100%;
+  color: var(--color-text);
+  font-family: var(--font-body);
+}
+
+.label {
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-body);
+  color: var(--color-text);
+}
+
+.trigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 48px;
+  padding: 12px 20px;
+  border: 1px solid var(--color-caption);
+  border-radius: var(--radius-md);
+  background-color: var(--color-surface);
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+
+
+.triggerOpen {
+  border-bottom-color: transparent;
+  border-radius: var(--radius-md) var(--radius-md) 0 0;
+}
+
+.trigger:disabled {
+  background-color: var(--color-disabled);
+  color: var(--color-disabled-text);
+  cursor: not-allowed;
+}
+
+.trigger.error {
+  border-color: var(--color-error);
+}
+
+.placeholder {
+  color: var(--color-caption);
+}
+
+.value {
+  color: var(--color-text);
+}
+
+.chevron {
+  flex-shrink: 0;
+  width: 10px;
+  height: 10px;
+  border-right: 1.5px solid var(--color-text);
+  border-bottom: 1.5px solid var(--color-text);
+  transform: rotate(45deg);
+  transition: transform 0.15s ease;
+}
+
+.chevronOpen {
+  transform: translateY(4px) rotate(225deg);
+}
+
+.list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  margin: 0;
+  padding: 8px 0;
+  list-style: none;
+  border: 1px solid var(--color-caption);
+  border-top: none;
+  border-radius: 0 0 var(--radius-md) var(--radius-md);
+  background-color: var(--color-surface);
+  max-height: 168px;
+  overflow-y: auto;
+  box-shadow: 0 8px 20px rgb(0 0 0 / 6%);
+}
+
+.option {
+  min-height: 36px;
+  padding: 6px 20px;
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.option:hover {
+  background-color: var(--color-accent-hover);
+}
+
+.optionSelected {
+  background-color: var(--color-accent);
+  color: var(--color-text);
+}
+
+.errorText {
+  display: block;
+  color: var(--color-error);
+  font-size: var(--font-size-caption);
+  line-height: var(--line-height-caption);
+}

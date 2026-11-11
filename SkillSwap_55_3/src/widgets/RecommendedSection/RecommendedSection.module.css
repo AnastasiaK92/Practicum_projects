@@ -1,0 +1,24 @@
+/**
+ * src/widgets/RecommendedSection/RecommendedSection.module.css — VERST-46
+ * Только обёртка и позиционирование Spinner — заголовок и сетка карточек
+ * целиком приходят из UserSkillsSection, здесь их вёрстка не дублируется.
+ */
+
+.section {
+  display: flex;
+  flex-direction: column;
+
+  /* Тот же отступ, что и между рядами карточек в сетке UserSkillsSection
+     (--space-24) — по условию задачи расстояние до Spinner должно совпадать
+     с расстоянием между рядами. */
+  gap: var(--space-24);
+}
+
+.spinnerWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.sentinel {
+  min-height: 1px;
+}

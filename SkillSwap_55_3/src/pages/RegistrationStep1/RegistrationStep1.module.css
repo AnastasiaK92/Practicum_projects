@@ -1,0 +1,62 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-32);
+  width: 100%;
+}
+
+.formContent {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-24);
+}
+
+.socialButtons {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+}
+
+.socialButton {
+  gap: var(--space-12);
+  border-color: var(--color-caption);
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+  letter-spacing: 0.32px;
+}
+
+.divider::before,
+.divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background-color: var(--color-disabled);
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+}
+
+.passwordField {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.passwordHint {
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-size: var(--font-size-caption);
+  line-height: var(--line-height-caption);
+  letter-spacing: 0.24px;
+}

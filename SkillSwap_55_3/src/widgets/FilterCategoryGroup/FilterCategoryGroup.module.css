@@ -1,0 +1,63 @@
+.filter-category-group__sidebar {
+  inline-size: 100%;
+}
+
+.filter-category-group__header {
+  display: flex;
+  inline-size: 100%;
+}
+
+.filter-category-group__header-title {
+  inline-size: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Обертка чекбокса заголовка */
+.filter-category-group__header-checkbox {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  margin-right: var(--space-12);
+}
+
+/* Текст заголовка категории */
+.filter-category-group__header-text {
+  flex-grow: 1;
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: var(--font-size-body);
+  color: var(--color-text);
+}
+
+.filter-category-group__header-icon {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  margin-left: var(--space-8);
+  transition: transform 0.3s ease-in-out;
+}
+
+.filter-category-group__header-icon.is-open {
+  transform: rotate(180deg);
+}
+
+.filter-category-group__subcategories-wrapper {
+  padding-left: var(--space-20);
+  margin-top: var(--space-12);
+}
+
+/* Список подкатегорий */
+.filter-category-group__subcategories-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+/* Формирует высоту строки подкатегории согласно макету. */
+.filter-category-group__subcategories-item {
+  padding-block: var(--space-4);
+}

@@ -1,0 +1,206 @@
+[
+  {
+    "id": "business-career",
+    "name": "Бизнес и карьера",
+    "subcategories": [
+      {
+        "id": "team-management",
+        "name": "Управление командой"
+      },
+      {
+        "id": "marketing-advertising",
+        "name": "Маркетинг и реклама"
+      },
+      {
+        "id": "sales-negotiations",
+        "name": "Продажи и переговоры"
+      },
+      {
+        "id": "personal-brand",
+        "name": "Личный бренд"
+      },
+      {
+        "id": "resume-interview",
+        "name": "Резюме и собеседование"
+      },
+      {
+        "id": "time-management",
+        "name": "Тайм-менеджмент"
+      },
+      {
+        "id": "project-management",
+        "name": "Проектное управление"
+      },
+      {
+        "id": "entrepreneurship",
+        "name": "Предпринимательство"
+      }
+    ]
+  },
+  {
+    "id": "foreign-languages",
+    "name": "Иностранные языки",
+    "subcategories": [
+      {
+        "id": "english",
+        "name": "Английский"
+      },
+      {
+        "id": "french",
+        "name": "Французский"
+      },
+      {
+        "id": "spanish",
+        "name": "Испанский"
+      },
+      {
+        "id": "german",
+        "name": "Немецкий"
+      },
+      {
+        "id": "chinese",
+        "name": "Китайский"
+      },
+      {
+        "id": "japanese",
+        "name": "Японский"
+      },
+      {
+        "id": "ielts-toefl-preparation",
+        "name": "Подготовка к экзаменам (IELTS, TOEFL)"
+      }
+    ]
+  },
+  {
+    "id": "home-comfort",
+    "name": "Дом и уют",
+    "subcategories": [
+      {
+        "id": "cleaning-organization",
+        "name": "Уборка и организация"
+      },
+      {
+        "id": "home-finance",
+        "name": "Домашние финансы"
+      },
+      {
+        "id": "cooking",
+        "name": "Приготовление еды"
+      },
+      {
+        "id": "houseplants",
+        "name": "Домашние растения"
+      },
+      {
+        "id": "home-repair",
+        "name": "Ремонт"
+      },
+      {
+        "id": "storage-organization",
+        "name": "Хранение вещей"
+      }
+    ]
+  },
+  {
+    "id": "creativity-art",
+    "name": "Творчество и искусство",
+    "subcategories": [
+      {
+        "id": "drawing-illustration",
+        "name": "Рисование и иллюстрация"
+      },
+      {
+        "id": "photography",
+        "name": "Фотография"
+      },
+      {
+        "id": "video-editing",
+        "name": "Видеомонтаж"
+      },
+      {
+        "id": "music-sound",
+        "name": "Музыка и звук"
+      },
+      {
+        "id": "acting",
+        "name": "Актёрское мастерство"
+      },
+      {
+        "id": "creative-writing",
+        "name": "Креативное письмо"
+      },
+      {
+        "id": "art-therapy",
+        "name": "Арт-терапия"
+      },
+      {
+        "id": "decor-diy",
+        "name": "Декор и DIY"
+      }
+    ]
+  },
+  {
+    "id": "education-development",
+    "name": "Образование и развитие",
+    "subcategories": [
+      {
+        "id": "personal-development",
+        "name": "Личностное развитие"
+      },
+      {
+        "id": "learning-skills",
+        "name": "Навыки обучения"
+      },
+      {
+        "id": "cognitive-techniques",
+        "name": "Когнитивные техники"
+      },
+      {
+        "id": "speed-reading",
+        "name": "Скорочтение"
+      },
+      {
+        "id": "teaching-skills",
+        "name": "Навыки преподавания"
+      },
+      {
+        "id": "coaching",
+        "name": "Коучинг"
+      }
+    ]
+  },
+  {
+    "id": "health-lifestyle",
+    "name": "Здоровье и лайфстайл",
+    "subcategories": [
+      {
+        "id": "yoga-meditation",
+        "name": "Йога и медитация"
+      },
+      {
+        "id": "nutrition-wellness",
+        "name": "Питание и ЗОЖ"
+      },
+      {
+        "id": "mental-health",
+        "name": "Ментальное здоровье"
+      },
+      {
+        "id": "mindfulness",
+        "name": "Осознанность"
+      },
+      {
+        "id": "physical-training",
+        "name": "Физические тренировки"
+      },
+      {
+        "id": "sleep-recovery",
+        "name": "Сон и восстановление"
+      },
+      {
+        "id": "work-life-balance",
+        "name": "Баланс жизни и работы"
+      }
+    ]
+  }
+]

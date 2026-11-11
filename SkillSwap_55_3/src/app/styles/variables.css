@@ -1,0 +1,86 @@
+:root {
+  /* Typography */
+  --font-heading: 'Jost', sans-serif;
+  --font-body: 'Roboto', sans-serif;
+  --font-size-h1: 32px;
+  --font-size-h2: 24px;
+  --font-size-h3: 20px;
+  --font-size-h4: 16px;
+  --font-size-body: 16px;
+  --font-size-caption: 12px;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --line-height-h1: 40px;
+  --line-height-h2: 28px;
+  --line-height-h3: 24px;
+  --line-height-h4: 24px;
+  --line-height-body: 24px;
+  --line-height-caption: 16px;
+  --letter-spacing-caption: 0.02em;
+
+  /* Colors */
+  --color-text: #253017;
+  --color-caption: #69735d;
+  --color-disabled-text: #9ca197;
+  --color-toggle: #b2b9a9;
+  --color-disabled: #e4e8df;
+  --color-surface: #fff;
+  --color-background: #f9faf7;
+  --color-accent-pressed: #508826;
+  --color-accent: #abd27a;
+  --color-accent-hover: #deebc5;
+  --color-alarm: #e0796e;
+  --color-error: #bf3920;
+  --color-tag-business: #eee7f7;
+  --color-tag-creative: #f7e7f2;
+  --color-tag-languages: #ebe5c5;
+  --color-tag-education: #e7f2f6;
+  --color-tag-home: #f7ebe5;
+  --color-tag-health: #e9f7e7;
+  --color-tag-more: #e8ecf7;
+
+  /* Spacing */
+  --space-4: 4px;
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-20: 20px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-36: 36px;
+  --space-40: 40px;
+  --space-48: 48px;
+  --space-60: 60px;
+
+  /* Radii */
+  --radius-sm: 4px;
+  --radius-md: 12px;
+  --radius-pill: 20px;
+
+  /* Sizes */
+  --control-height: 48px;
+  --icon-size: 24px;
+  --tag-height: 32px;
+}
+
+[data-theme='dark'] {
+  --color-text: #253017;
+  --color-caption: #69735d;
+  --color-disabled-text: #9ca197;
+  --color-toggle: #b2b9a9;
+  --color-disabled: #e4e8df;
+  --color-surface: #fff;
+  --color-background: #f9faf7;
+  --color-accent-pressed: #508826;
+  --color-accent: #abd27a;
+  --color-accent-hover: #deebc5;
+  --color-alarm: #e0796e;
+  --color-error: #bf3920;
+  --color-tag-business: #eee7f7;
+  --color-tag-creative: #f7e7f2;
+  --color-tag-languages: #ebe5c5;
+  --color-tag-education: #e7f2f6;
+  --color-tag-home: #f7ebe5;
+  --color-tag-health: #e9f7e7;
+  --color-tag-more: #e8ecf7;
+}

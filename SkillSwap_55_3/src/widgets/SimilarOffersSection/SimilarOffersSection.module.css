@@ -1,0 +1,23 @@
+.section {
+  width: 100%;
+}
+
+.cardsWrapper {
+  position: relative;
+  margin-top: var(--space-32);
+  width: 100%;
+  overflow: visible;
+}
+
+.cards {
+  display: flex;
+  gap: var(--space-24);
+}
+
+.nextButton {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  background: var(--color-disabled);
+}

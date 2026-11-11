@@ -1,0 +1,94 @@
+[
+  {
+    "id": "moscow",
+    "name": "Москва"
+  },
+  {
+    "id": "saint-petersburg",
+    "name": "Санкт-Петербург"
+  },
+  {
+    "id": "novosibirsk",
+    "name": "Новосибирск"
+  },
+  {
+    "id": "yekaterinburg",
+    "name": "Екатеринбург"
+  },
+  {
+    "id": "kazan",
+    "name": "Казань"
+  },
+  {
+    "id": "krasnoyarsk",
+    "name": "Красноярск"
+  },
+  {
+    "id": "nizhny-novgorod",
+    "name": "Нижний Новгород"
+  },
+  {
+    "id": "chelyabinsk",
+    "name": "Челябинск"
+  },
+  {
+    "id": "ufa",
+    "name": "Уфа"
+  },
+  {
+    "id": "krasnodar",
+    "name": "Краснодар"
+  },
+  {
+    "id": "samara",
+    "name": "Самара"
+  },
+  {
+    "id": "rostov-on-don",
+    "name": "Ростов-на-Дону"
+  },
+  {
+    "id": "omsk",
+    "name": "Омск"
+  },
+  {
+    "id": "voronezh",
+    "name": "Воронеж"
+  },
+  {
+    "id": "perm",
+    "name": "Пермь"
+  },
+  {
+    "id": "volgograd",
+    "name": "Волгоград"
+  },
+  {
+    "id": "saratov",
+    "name": "Саратов"
+  },
+  {
+    "id": "tyumen",
+    "name": "Тюмень"
+  },
+  {
+    "id": "tolyatti",
+    "name": "Тольятти"
+  },
+  {
+    "id": "makhachkala",
+    "name": "Махачкала"
+  },
+  {
+    "id": "irkutsk",
+    "name": "Иркутск"
+  },
+  {
+    "id": "murmansk",
+    "name": "Мурманск"
+  },
+  {
+    "id": "noginsk",
+    "name": "Ногинск"
+  }
+]

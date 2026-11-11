@@ -1,0 +1,105 @@
+/* Обёртка */
+.label {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-8); /* 8px отступ между кружком и текстом */
+  cursor: pointer;
+  user-select: none;
+  font-family: var(--font-body);
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+  color: var(--color-text);
+}
+
+/* Нативный input скрываем, но оставляем доступным */
+.input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+/* Кастомный кружок — 24x24px по макету */
+.radio {
+  display: inline-block;
+  flex-shrink: 0;
+  width: 24px;   
+  height: 24px;  
+  border-radius: 50%;
+  border: 2px solid var(--color-text); /* Рамка unchecked */
+  background-color: transparent;
+  position: relative;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+/* Внутренняя точка для checked — 10px */
+.radio::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  width: 10px;   /* Размер точки */
+  height: 10px;  /* Размер точки */
+  border-radius: 50%;
+  background-color: var(--color-surface); /* Белый */
+  transition: transform 0.2s ease;
+}
+
+/* === СОСТОЯНИЯ === */
+
+/* 1. Checked (выбрано) */
+.input:checked + .radio {
+  border-color: var(--color-accent-pressed); 
+  background-color: var(--color-surface);    
+}
+
+.input:checked + .radio::after {
+  transform: translate(-50%, -50%) scale(1);
+  background-color: var(--color-accent-pressed); 
+}
+
+/* 2. Hover (только если не disabled) */
+.label:hover .input:not(:disabled) + .radio {
+  border-color: var(--color-accent-hover);
+}
+
+/* 3. Focus */
+.input:focus-visible + .radio {
+  outline: 2px solid var(--color-accent-pressed);
+  outline-offset: 2px;
+}
+
+/* 4. Disabled */
+.input:disabled + .radio {
+  border-color: var(--color-disabled);
+  background-color: var(--color-surface);
+  cursor: not-allowed;
+}
+
+.input:disabled:checked + .radio {
+  border-color: var(--color-toggle);
+  background-color: var(--color-surface);
+}
+
+.input:disabled:checked + .radio::after {
+  background-color: var(--color-toggle); 
+}
+
+.input:disabled ~ .text {
+  color: var(--color-disabled-text);
+  cursor: not-allowed;
+}
+
+.label:has(.input:disabled) {
+  cursor: not-allowed;
+}
+
+/* Текст */
+.text {
+  color: inherit;
+}

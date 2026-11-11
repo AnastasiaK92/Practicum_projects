@@ -1,0 +1,68 @@
+.header {
+  color: var(--color-text);
+  font-family: var(--font-heading);
+  font-size: var( --font-size-h2);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-h2);
+  letter-spacing: var( --letter-spacing-caption);
+}
+
+.socialButton {
+  min-width: 436px;
+  background: transparent;
+  border-color: var(--color-caption);
+}
+
+.socialButtons {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+
+}
+
+.formSection {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-24);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-20);
+}
+
+.divider{
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.divider::after,
+.divider::before {
+  content: '';
+  height: 1px;
+  background: var(--color-disabled);
+  flex: 1;
+}
+
+.divider span {
+  display: flex;
+  justify-content: center;
+  color: var( --color-text);
+  font-family: var(--font-body);
+  font-size: var(--font-size-h4);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-h3);
+  letter-spacing: var(--letter-spacing-caption);
+}
+
+.registerLink{
+  text-align: center;
+  color:var(--color-accent-pressed);
+   font-family: var(--font-body);
+  font-size: var(--font-size-h4);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-body);
+  letter-spacing: var(--letter-spacing-caption);
+}

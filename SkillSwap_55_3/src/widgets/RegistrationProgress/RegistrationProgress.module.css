@@ -1,0 +1,34 @@
+.progress {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-12);
+}
+
+.text {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-h2);
+  letter-spacing: -0.264px;
+  color: var(--color-text);
+  text-align: center;
+}
+
+.indicators {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-16);
+}
+
+.indicator {
+  width: 60px;
+  height: 4px;
+  border-radius: 8px;
+  background-color: var(--color-disabled);
+}
+
+.active {
+  background-color: var(--color-accent);
+}

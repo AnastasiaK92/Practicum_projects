@@ -1,0 +1,26 @@
+.avatar-wrapper {
+  background-color: var(--color-disabled-text);
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.avatar-wrapper-small {
+  block-size: 48px;
+  inline-size: 48px;
+}
+
+.avatar-wrapper-medium {
+  block-size: 100px;
+  inline-size: 100px;
+}
+
+.avatar-wrapper-large {
+  block-size: 244px;
+  inline-size: 244px;
+}
+
+.avatar {
+  block-size: 100%;
+  inline-size: 100%;
+  object-fit: cover;
+}

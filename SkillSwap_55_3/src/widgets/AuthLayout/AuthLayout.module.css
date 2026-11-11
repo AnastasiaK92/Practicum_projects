@@ -1,0 +1,41 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  min-block-size: calc(100vh - 84px);
+  inline-size: 100%;
+  padding-inline: 152px;
+  background-color: var(--color-background);
+}
+
+.columns {
+  display: flex;
+  flex: 0 0 692px;
+  gap: var(--space-24);
+}
+
+.topContent {
+  font-family: var(--font-heading);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-h2);
+  line-height: var(--line-height-h2);
+  letter-spacing: -0.264px;
+  text-align: center;
+  margin-bottom: var(--space-32);
+}
+
+.column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-surface);
+  border-radius: var(--radius-md);
+  width: 100%;
+}
+
+.rightColumn {
+  padding: 132px var(--space-60);
+}
+
+.leftColumn {
+  padding: var(--space-40) var(--space-60);
+}

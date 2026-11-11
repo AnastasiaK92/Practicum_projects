@@ -1,0 +1,135 @@
+/**
+ * src/shared/ui/Button/Button.module.css — VERST-01
+ * Токены — из src/app/styles/variables.css (VERST-00-A, уже смёржено в develop).
+ * Варианты: primary / secondary / tertiary (проп variant).
+ * Размеры: sm / md / lg (проп size).
+ * Состояния: default / hover / active(pressed) / disabled.
+ * Focus — стандартный браузерный outline, отдельного состояния Focus
+ * в Figma нет, кастомный focus-ring не используется.
+ */
+
+ .button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-8);
+  border-radius: var(--radius-md);
+  border: 1px solid transparent;
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-body);
+  letter-spacing: 0.32px;
+  cursor: pointer;
+  white-space: nowrap;
+  user-select: none;
+  transition:
+    background-color 0.15s ease,
+    border-color 0.15s ease,
+    color 0.15s ease;
+}
+
+/* ---------- Размеры (проп size) ----------
+   Для md используется общий токен --control-height (единый со всеми
+   контролами формы). Для sm/lg подобраны от --control-height */
+
+.size-sm {
+  height: 40px;
+  padding: 0 var(--space-16);
+  font-size: var(--font-size-caption);
+}
+
+.size-md {
+  height: var(--control-height);
+  padding: 0 var(--space-24);
+  font-size: var(--font-size-body);
+}
+
+.size-lg {
+  height: 56px;
+  padding: 0 var(--space-24);
+  font-size: var(--font-size-body);
+}
+
+/* ---------- Иконка (слева/справа от текста) ---------- */
+
+.icon {
+  display: inline-flex;
+  flex-shrink: 0;
+  width: var(--icon-size);
+  height: var(--icon-size);
+}
+
+.icon-left {
+  order: -1;
+}
+
+.icon-right {
+  order: 1;
+}
+
+/* ---------- Primary ---------- */
+
+.primary {
+  background-color: var(--color-accent);
+  color: var(--color-text);
+}
+
+.primary:hover:not(:disabled) {
+  background-color: var(--color-accent-hover);
+}
+
+.primary:active:not(:disabled) {
+  background-color: var(--color-accent-pressed);
+  color: var(--color-surface);
+}
+
+.primary:disabled {
+  background-color: var(--color-disabled);
+  color: var(--color-caption);
+  cursor: not-allowed;
+}
+
+/* ---------- Secondary ----------
+   Фон всегда белый (--color-surface); между состояниями меняется только
+   цвет обводки — он совпадает с цветом заливки Primary в том же
+   состоянии. Текст — базовый --color-text, приглушается на hover/disabled. */
+
+.secondary {
+  background-color: var(--color-surface);
+  border-color: var(--color-accent);
+  color: var(--color-text);
+}
+
+.secondary:hover:not(:disabled) {
+  border-color: var(--color-accent-hover);
+  color: var(--color-caption);
+}
+
+.secondary:active:not(:disabled) {
+  border-color: var(--color-accent-pressed);
+  color: var(--color-text);
+}
+
+.secondary:disabled {
+  border-color: var(--color-disabled);
+  color: var(--color-disabled-text);
+  cursor: not-allowed;
+}
+
+/* ---------- Tertiary ----------
+   Только текст, без обводки; padding задаётся классом размера. */
+
+.tertiary {
+  background-color: var(--color-surface);
+  border-color: transparent;
+  color: var(--color-text);
+}
+
+.tertiary:hover:not(:disabled) {
+  text-decoration: underline;
+}
+
+.tertiary:disabled {
+  color: var(--color-disabled-text);
+  cursor: not-allowed;
+}

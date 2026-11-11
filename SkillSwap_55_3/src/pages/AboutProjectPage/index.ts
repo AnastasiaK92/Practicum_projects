@@ -1,0 +1,2 @@
+export { AboutProjectPage } from './AboutProjectPage'
+

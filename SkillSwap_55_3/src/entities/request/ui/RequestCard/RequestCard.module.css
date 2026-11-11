@@ -1,0 +1,80 @@
+/**
+ * src/entities/request/ui/RequestCard/RequestCard.module.css — VERST-31
+ * Токены — из src/app/styles/variables.css. Разметка единая для всех
+ * состояний карточки, статусной цветной плашки на макете нет.
+ */
+
+ .card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-16);
+  font-family: var(--font-body);
+}
+
+.main {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-20);
+  width: 100%;
+}
+
+.message {
+  display: flex;
+  flex: 1;
+  min-width: 0;
+  gap: var(--space-8);
+}
+
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: var(--space-40);
+  height: var(--space-40);
+  color: var(--color-text);
+}
+
+.icon > * {
+  width: 100%;
+  height: 100%;
+}
+
+.text {
+  display: flex;
+  flex: 1;
+  min-width: 0;
+  flex-direction: column;
+}
+
+.title {
+  margin: 0;
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-body);
+  letter-spacing: var(--letter-spacing-caption);
+  color: var(--color-text);
+}
+
+.description {
+  margin: 0;
+  font-size: var(--font-size-caption);
+  line-height: var(--line-height-caption);
+  letter-spacing: var(--letter-spacing-caption);
+  color: var(--color-text);
+}
+
+.date {
+  flex-shrink: 0;
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+  letter-spacing: var(--letter-spacing-caption);
+  color: var(--color-caption);
+  white-space: nowrap;
+}
+
+.actions {
+  display: flex;
+  gap: var(--space-8);
+}

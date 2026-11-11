@@ -1,0 +1,134 @@
+.gallery {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-24);
+}
+
+/* Контейнер главного изображения и навигации */
+.main {
+  position: relative;
+  width: 324px;
+  height: 324px;
+  flex-shrink: 0;
+  overflow: hidden;
+  border-radius: var(--radius-md);
+  background-color: var(--color-background);
+}
+
+/* Swiper занимает весь контейнер главного изображения */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.main img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Кнопки навигации поверх главного изображения */
+.arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--color-disabled);
+  color: var(--color-caption);
+  cursor: pointer;
+  transform: translateY(-50%);
+  transition: background-color 0.2s ease;
+}
+
+.arrow:hover {
+  background-color: var(--color-accent-hover);
+}
+
+.arrow:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+.arrow svg {
+  width: 16px;
+  height: 16px;
+}
+
+.arrowPrev {
+  left: var(--space-16);
+}
+
+.arrowNext {
+  right: var(--space-16);
+}
+
+/* Один chevron используется для обеих кнопок */
+.arrowPrevIcon {
+  transform: rotate(180deg);
+}
+
+/* Вертикальная колонка миниатюр */
+.thumbs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-24);
+  width: 92px;
+}
+
+/* Отдельная миниатюра */
+.thumb {
+  position: relative;
+  width: 92px;
+  height: 92px;
+  flex-shrink: 0;
+  overflow: hidden;
+  padding: 0;
+  border: none;
+  border-radius: var(--radius-md);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.thumb img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Состояние выбранной миниатюры */
+.thumbActive {
+  outline: 2px solid var(--color-accent);
+  outline-offset: -2px;
+}
+
+.thumb:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* Счётчик скрытых изображений поверх последней миниатюры */
+.thumbOverlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-md);
+  background-color: rgb(255 255 255 / 50%);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-body);
+  pointer-events: none;
+}

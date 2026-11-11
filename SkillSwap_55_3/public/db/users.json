@@ -1,0 +1,1531 @@
+[
+  {
+    "id": "user-001",
+    "name": "Юлия",
+    "birthDate": "2002-02-04",
+    "gender": "female",
+    "cityId": "moscow",
+    "avatarUrl": "/images/users/user-001/avatar.webp",
+    "description": "Люблю узнавать новое, общаться с людьми и делиться практическим опытом.",
+    "offeredSkill": {
+      "title": "Как организовать работу небольшой команды",
+      "categoryId": "business-career",
+      "subcategoryId": "team-management",
+      "description": "Подойдёт для начинающих. Разберём базовые принципы, потренируемся на практических примерах и составим понятный план дальнейшего развития.",
+      "imageUrls": [
+        "/images/users/user-001/skills/01.webp",
+        "/images/users/user-001/skills/02.webp",
+        "/images/users/user-001/skills/03.webp",
+        "/images/users/user-001/skills/04.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "marketing-advertising",
+      "sales-negotiations"
+    ],
+    "likesCount": 39,
+    "createdAt": "2025-11-24T00:00:00.000Z"
+  },
+  {
+    "id": "user-002",
+    "name": "Алексей",
+    "birthDate": "1999-03-07",
+    "gender": "male",
+    "cityId": "saint-petersburg",
+    "avatarUrl": "/images/users/user-002/avatar.webp",
+    "description": "Ценю спокойное обучение без спешки и люблю осваивать новые полезные навыки.",
+    "offeredSkill": {
+      "title": "Обратная связь и мотивация команды",
+      "categoryId": "business-career",
+      "subcategoryId": "team-management",
+      "description": "Обучение строится через практику: сначала разберём основу, затем закрепим её на конкретных упражнениях и типичных задачах.",
+      "imageUrls": [
+        "/images/users/user-002/skills/01.webp",
+        "/images/users/user-002/skills/02.webp",
+        "/images/users/user-002/skills/03.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "personal-brand",
+      "resume-interview"
+    ],
+    "likesCount": 25,
+    "createdAt": "2026-03-31T00:00:00.000Z"
+  },
+  {
+    "id": "user-003",
+    "name": "Альберт",
+    "birthDate": "1985-04-10",
+    "gender": "male",
+    "cityId": "saint-petersburg",
+    "avatarUrl": null,
+    "description": "Интересуюсь саморазвитием, путешествиями и обменом опытом с другими людьми.",
+    "offeredSkill": {
+      "title": "Основы продвижения в соцсетях",
+      "categoryId": "business-career",
+      "subcategoryId": "marketing-advertising",
+      "description": "Помогу освоить навык с нуля или упорядочить уже имеющиеся знания. Темп и сложность можно подстроить под ваш уровень.",
+      "imageUrls": [
+        "/images/users/user-003/skills/01.webp",
+        "/images/users/user-003/skills/02.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "time-management"
+    ],
+    "likesCount": 119,
+    "createdAt": "2026-07-18T00:00:00.000Z"
+  },
+  {
+    "id": "user-004",
+    "name": "Анастасия",
+    "birthDate": "2004-05-13",
+    "gender": "female",
+    "cityId": "novosibirsk",
+    "avatarUrl": "/images/users/user-004/avatar.webp",
+    "description": "Предпочитаю практический подход и считаю, что лучше всего учиться через реальные задачи.",
+    "offeredSkill": {
+      "title": "Контент-маркетинг для небольших проектов",
+      "categoryId": "business-career",
+      "subcategoryId": "marketing-advertising",
+      "description": "Покажу рабочие приёмы, объясню частые ошибки и дам упражнения, которые можно продолжать выполнять самостоятельно.",
+      "imageUrls": [
+        "/images/users/user-004/skills/01.webp",
+        "/images/users/user-004/skills/02.webp",
+        "/images/users/user-004/skills/03.webp",
+        "/images/users/user-004/skills/04.webp",
+        "/images/users/user-004/skills/05.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "project-management"
+    ],
+    "likesCount": 60,
+    "createdAt": "2025-09-20T00:00:00.000Z"
+  },
+  {
+    "id": "user-005",
+    "name": "Дарья",
+    "birthDate": "1989-06-16",
+    "gender": "female",
+    "cityId": "rostov-on-don",
+    "avatarUrl": "/images/users/user-005/avatar.webp",
+    "description": "Люблю творческие проекты, новые знакомства и понятные объяснения без лишней теории.",
+    "offeredSkill": {
+      "title": "Переговоры без давления",
+      "categoryId": "business-career",
+      "subcategoryId": "sales-negotiations",
+      "description": "Сфокусируемся на понятной практике без перегруза теорией. После встречи останется набор шагов, по которым можно двигаться дальше.",
+      "imageUrls": [
+        "/images/users/user-005/skills/01.webp",
+        "/images/users/user-005/skills/02.webp",
+        "/images/users/user-005/skills/03.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "entrepreneurship",
+      "english",
+      "french",
+      "spanish"
+    ],
+    "likesCount": 33,
+    "createdAt": "2026-06-24T00:00:00.000Z"
+  },
+  {
+    "id": "user-006",
+    "name": "Олег",
+    "birthDate": "1979-07-19",
+    "gender": "male",
+    "cityId": "murmansk",
+    "avatarUrl": "/images/users/user-006/avatar.webp",
+    "description": "С удовольствием пробую новое и охотно делюсь тем, что уже хорошо умею.",
+    "offeredSkill": {
+      "title": "Личный бренд с нуля",
+      "categoryId": "business-career",
+      "subcategoryId": "personal-brand",
+      "description": "Подойдёт для начинающих. Разберём базовые принципы, потренируемся на практических примерах и составим понятный план дальнейшего развития.",
+      "imageUrls": [
+        "/images/users/user-006/skills/01.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "german",
+      "chinese"
+    ],
+    "likesCount": 57,
+    "createdAt": "2026-05-02T00:00:00.000Z"
+  },
+  {
+    "id": "user-007",
+    "name": "Михаил",
+    "birthDate": "1970-08-22",
+    "gender": "male",
+    "cityId": "noginsk",
+    "avatarUrl": null,
+    "description": "Люблю узнавать новое, общаться с людьми и делиться практическим опытом.",
+    "offeredSkill": {
+      "title": "Резюме и подготовка к собеседованию",
+      "categoryId": "business-career",
+      "subcategoryId": "resume-interview",
+      "description": "Обучение строится через практику: сначала разберём основу, затем закрепим её на конкретных упражнениях и типичных задачах.",
+      "imageUrls": [
+        "/images/users/user-007/skills/01.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "japanese"
+    ],
+    "likesCount": 4,
+    "createdAt": "2026-08-07T00:00:00.000Z"
+  },
+  {
+    "id": "user-008",
+    "name": "Аркадий",
+    "birthDate": "2003-01-01",
+    "gender": "male",
+    "cityId": "irkutsk",
+    "avatarUrl": "/images/users/user-008/avatar.webp",
+    "description": "Ценю спокойное обучение без спешки и люблю осваивать новые полезные навыки.",
+    "offeredSkill": {
+      "title": "Планирование недели без перегруза",
+      "categoryId": "business-career",
+      "subcategoryId": "time-management",
+      "description": "Помогу освоить навык с нуля или упорядочить уже имеющиеся знания. Темп и сложность можно подстроить под ваш уровень.",
+      "imageUrls": [
+        "/images/users/user-008/skills/01.webp",
+        "/images/users/user-008/skills/02.webp",
+        "/images/users/user-008/skills/03.webp",
+        "/images/users/user-008/skills/04.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "ielts-toefl-preparation",
+      "cleaning-organization",
+      "home-finance"
+    ],
+    "likesCount": 24,
+    "createdAt": "2026-07-09T00:00:00.000Z"
+  },
+  {
+    "id": "user-009",
+    "name": "Анна",
+    "birthDate": "1983-02-04",
+    "gender": "female",
+    "cityId": "moscow",
+    "avatarUrl": "/images/users/user-009/avatar.webp",
+    "description": "Интересуюсь саморазвитием, путешествиями и обменом опытом с другими людьми.",
+    "offeredSkill": {
+      "title": "Основы управления проектами",
+      "categoryId": "business-career",
+      "subcategoryId": "project-management",
+      "description": "Покажу рабочие приёмы, объясню частые ошибки и дам упражнения, которые можно продолжать выполнять самостоятельно.",
+      "imageUrls": [
+        "/images/users/user-009/skills/01.webp",
+        "/images/users/user-009/skills/02.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "cooking",
+      "houseplants"
+    ],
+    "likesCount": 12,
+    "createdAt": "2025-11-09T00:00:00.000Z"
+  },
+  {
+    "id": "user-010",
+    "name": "Мария",
+    "birthDate": "1996-03-07",
+    "gender": "female",
+    "cityId": "moscow",
+    "avatarUrl": "/images/users/user-010/avatar.webp",
+    "description": "Предпочитаю практический подход и считаю, что лучше всего учиться через реальные задачи.",
+    "offeredSkill": {
+      "title": "Как проверить идею небольшого бизнеса",
+      "categoryId": "business-career",
+      "subcategoryId": "entrepreneurship",
+      "description": "Сфокусируемся на понятной практике без перегруза теорией. После встречи останется набор шагов, по которым можно двигаться дальше.",
+      "imageUrls": [
+        "/images/users/user-010/skills/01.webp",
+        "/images/users/user-010/skills/02.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "home-repair",
+      "storage-organization",
+      "drawing-illustration"
+    ],
+    "likesCount": 45,
+    "createdAt": "2026-04-16T00:00:00.000Z"
+  },
+  {
+    "id": "user-011",
+    "name": "Елена",
+    "birthDate": "1996-04-10",
+    "gender": "female",
+    "cityId": "moscow",
+    "avatarUrl": "/images/users/user-011/avatar.webp",
+    "description": "Люблю творческие проекты, новые знакомства и понятные объяснения без лишней теории.",
+    "offeredSkill": {
+      "title": "Разговорный английский без страха",
+      "categoryId": "foreign-languages",
+      "subcategoryId": "english",
+      "description": "Подойдёт для начинающих. Разберём базовые принципы, потренируемся на практических примерах и составим понятный план дальнейшего развития.",
+      "imageUrls": [
+        "/images/users/user-011/skills/01.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "photography",
+      "video-editing",
+      "music-sound"
+    ],
+    "likesCount": 10,
+    "createdAt": "2025-10-25T00:00:00.000Z"
+  },
+  {
+    "id": "user-012",
+    "name": "София",
+    "birthDate": "1998-05-13",
+    "gender": "female",
+    "cityId": "moscow",
+    "avatarUrl": "/images/users/user-012/avatar.webp",
+    "description": "С удовольствием пробую новое и охотно делюсь тем, что уже хорошо умею.",
+    "offeredSkill": {
+      "title": "Английский для путешествий",
+      "categoryId": "foreign-languages",
+      "subcategoryId": "english",
+      "description": "Обучение строится через практику: сначала разберём основу, затем закрепим её на конкретных упражнениях и типичных задачах.",
+      "imageUrls": [
+        "/images/users/user-012/skills/01.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "acting",
+      "creative-writing",
+      "art-therapy",
+      "decor-diy"
+    ],
+    "likesCount": 82,
+    "createdAt": "2025-12-14T00:00:00.000Z"
+  },
+  {
+    "id": "user-013",
+    "name": "Наталья",
+    "birthDate": "1992-06-16",
+    "gender": "female",
+    "cityId": "moscow",
+    "avatarUrl": "/images/users/user-013/avatar.webp",
+    "description": "Люблю узнавать новое, общаться с людьми и делиться практическим опытом.",
+    "offeredSkill": {
+      "title": "Английский для работы",
+      "categoryId": "foreign-languages",
+      "subcategoryId": "english",
+      "description": "Помогу освоить навык с нуля или упорядочить уже имеющиеся знания. Темп и сложность можно подстроить под ваш уровень.",
+      "imageUrls": [
+        "/images/users/user-013/skills/01.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "personal-development",
+      "learning-skills"
+    ],
+    "likesCount": 22,
+    "createdAt": "2026-06-15T00:00:00.000Z"
+  },
+  {
+    "id": "user-014",
+    "name": "Ирина",
+    "birthDate": "1998-07-19",
+    "gender": "female",
+    "cityId": "moscow",
+    "avatarUrl": null,
+    "description": "Ценю спокойное обучение без спешки и люблю осваивать новые полезные навыки.",
+    "offeredSkill": {
+      "title": "Английский для начинающих",
+      "categoryId": "foreign-languages",
+      "subcategoryId": "english",
+      "description": "Покажу рабочие приёмы, объясню частые ошибки и дам упражнения, которые можно продолжать выполнять самостоятельно.",
+      "imageUrls": [
+        "/images/users/user-014/skills/01.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "cognitive-techniques",
+      "speed-reading"
+    ],
+    "likesCount": 20,
+    "createdAt": "2026-01-13T00:00:00.000Z"
+  },
+  {
+    "id": "user-015",
+    "name": "Дмитрий",
+    "birthDate": "2003-08-22",
+    "gender": "male",
+    "cityId": "moscow",
+    "avatarUrl": "/images/users/user-015/avatar.webp",
+    "description": "Интересуюсь саморазвитием, путешествиями и обменом опытом с другими людьми.",
+    "offeredSkill": {
+      "title": "Французский для начинающих",
+      "categoryId": "foreign-languages",
+      "subcategoryId": "french",
+      "description": "Сфокусируемся на понятной практике без перегруза теорией. После встречи останется набор шагов, по которым можно двигаться дальше.",
+      "imageUrls": [
+        "/images/users/user-015/skills/01.webp",
+        "/images/users/user-015/skills/02.webp",
+        "/images/users/user-015/skills/03.webp",
+        "/images/users/user-015/skills/04.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "teaching-skills"
+    ],
+    "likesCount": 19,
+    "createdAt": "2026-03-12T00:00:00.000Z"
+  },
+  {
+    "id": "user-016",
+    "name": "Сергей",
+    "birthDate": "1982-01-01",
+    "gender": "male",
+    "cityId": "moscow",
+    "avatarUrl": "/images/users/user-016/avatar.webp",
+    "description": "Предпочитаю практический подход и считаю, что лучше всего учиться через реальные задачи.",
+    "offeredSkill": {
+      "title": "Разговорный французский",
+      "categoryId": "foreign-languages",
+      "subcategoryId": "french",
+      "description": "Подойдёт для начинающих. Разберём базовые принципы, потренируемся на практических примерах и составим понятный план дальнейшего развития.",
+      "imageUrls": [
+        "/images/users/user-016/skills/01.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "coaching",
+      "yoga-meditation"
+    ],
+    "likesCount": 31,
+    "createdAt": "2026-07-27T00:00:00.000Z"
+  },
+  {
+    "id": "user-017",
+    "name": "Ксения",
+    "birthDate": "1992-02-04",
+    "gender": "female",
+    "cityId": "saint-petersburg",
+    "avatarUrl": "/images/users/user-017/avatar.webp",
+    "description": "Люблю творческие проекты, новые знакомства и понятные объяснения без лишней теории.",
+    "offeredSkill": {
+      "title": "Испанский с нуля",
+      "categoryId": "foreign-languages",
+      "subcategoryId": "spanish",
+      "description": "Обучение строится через практику: сначала разберём основу, затем закрепим её на конкретных упражнениях и типичных задачах.",
+      "imageUrls": [
+        "/images/users/user-017/skills/01.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "nutrition-wellness",
+      "mental-health"
+    ],
+    "likesCount": 27,
+    "createdAt": "2026-03-15T00:00:00.000Z"
+  },
+  {
+    "id": "user-018",
+    "name": "Полина",
+    "birthDate": "1981-03-07",
+    "gender": "female",
+    "cityId": "saint-petersburg",
+    "avatarUrl": "/images/users/user-018/avatar.webp",
+    "description": "С удовольствием пробую новое и охотно делюсь тем, что уже хорошо умею.",
+    "offeredSkill": {
+      "title": "Разговорный испанский для путешествий",
+      "categoryId": "foreign-languages",
+      "subcategoryId": "spanish",
+      "description": "Помогу освоить навык с нуля или упорядочить уже имеющиеся знания. Темп и сложность можно подстроить под ваш уровень.",
+      "imageUrls": [
+        "/images/users/user-018/skills/01.webp",
+        "/images/users/user-018/skills/02.webp",
+        "/images/users/user-018/skills/03.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "mindfulness",
+      "physical-training"
+    ],
+    "likesCount": 9,
+    "createdAt": "2025-10-10T00:00:00.000Z"
+  },
+  {
+    "id": "user-019",
+    "name": "Виктория",
+    "birthDate": "1977-04-10",
+    "gender": "female",
+    "cityId": "saint-petersburg",
+    "avatarUrl": "/images/users/user-019/avatar.webp",
+    "description": "Люблю узнавать новое, общаться с людьми и делиться практическим опытом.",
+    "offeredSkill": {
+      "title": "Базовый немецкий для повседневного общения",
+      "categoryId": "foreign-languages",
+      "subcategoryId": "german",
+      "description": "Покажу рабочие приёмы, объясню частые ошибки и дам упражнения, которые можно продолжать выполнять самостоятельно.",
+      "imageUrls": [
+        "/images/users/user-019/skills/01.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "sleep-recovery",
+      "work-life-balance",
+      "english",
+      "photography"
+    ],
+    "likesCount": 59,
+    "createdAt": "2026-08-30T00:00:00.000Z"
+  },
+  {
+    "id": "user-020",
+    "name": "Илья",
+    "birthDate": "2008-05-13",
+    "gender": "male",
+    "cityId": "saint-petersburg",
+    "avatarUrl": "/images/users/user-020/avatar.webp",
+    "description": "Ценю спокойное обучение без спешки и люблю осваивать новые полезные навыки.",
+    "offeredSkill": {
+      "title": "Основы разговорного китайского",
+      "categoryId": "foreign-languages",
+      "subcategoryId": "chinese",
+      "description": "Сфокусируемся на понятной практике без перегруза теорией. После встречи останется набор шагов, по которым можно двигаться дальше.",
+      "imageUrls": [
+        "/images/users/user-020/skills/01.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "music-sound",
+      "yoga-meditation",
+      "cooking"
+    ],
+    "likesCount": 17,
+    "createdAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "id": "user-021",
+    "name": "Роман",
+    "birthDate": "2000-06-16",
+    "gender": "male",
+    "cityId": "saint-petersburg",
+    "avatarUrl": "/images/users/user-021/avatar.webp",
+    "description": "Интересуюсь саморазвитием, путешествиями и обменом опытом с другими людьми.",
+    "offeredSkill": {
+      "title": "Японский для начинающих",
+      "categoryId": "foreign-languages",
+      "subcategoryId": "japanese",
+      "description": "Подойдёт для начинающих. Разберём базовые принципы, потренируемся на практических примерах и составим понятный план дальнейшего развития.",
+      "imageUrls": [
+        "/images/users/user-021/skills/01.webp",
+        "/images/users/user-021/skills/02.webp",
+        "/images/users/user-021/skills/03.webp",
+        "/images/users/user-021/skills/04.webp",
+        "/images/users/user-021/skills/05.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "spanish"
+    ],
+    "likesCount": 2,
+    "createdAt": "2026-04-21T00:00:00.000Z"
+  },
+  {
+    "id": "user-022",
+    "name": "Екатерина",
+    "birthDate": "1986-07-19",
+    "gender": "female",
+    "cityId": "novosibirsk",
+    "avatarUrl": "/images/users/user-022/avatar.webp",
+    "description": "Предпочитаю практический подход и считаю, что лучше всего учиться через реальные задачи.",
+    "offeredSkill": {
+      "title": "Подготовка к IELTS: стратегия и практика",
+      "categoryId": "foreign-languages",
+      "subcategoryId": "ielts-toefl-preparation",
+      "description": "Обучение строится через практику: сначала разберём основу, затем закрепим её на конкретных упражнениях и типичных задачах.",
+      "imageUrls": [
+        "/images/users/user-022/skills/01.webp",
+        "/images/users/user-022/skills/02.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "video-editing"
+    ],
+    "likesCount": 88,
+    "createdAt": "2026-08-16T00:00:00.000Z"
+  },
+  {
+    "id": "user-023",
+    "name": "Никита",
+    "birthDate": "1990-08-22",
+    "gender": "male",
+    "cityId": "novosibirsk",
+    "avatarUrl": "/images/users/user-023/avatar.webp",
+    "description": "Люблю творческие проекты, новые знакомства и понятные объяснения без лишней теории.",
+    "offeredSkill": {
+      "title": "Организация дома без лишних вещей",
+      "categoryId": "home-comfort",
+      "subcategoryId": "cleaning-organization",
+      "description": "Помогу освоить навык с нуля или упорядочить уже имеющиеся знания. Темп и сложность можно подстроить под ваш уровень.",
+      "imageUrls": [
+        "/images/users/user-023/skills/01.webp",
+        "/images/users/user-023/skills/02.webp",
+        "/images/users/user-023/skills/03.webp",
+        "/images/users/user-023/skills/04.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "personal-development",
+      "nutrition-wellness"
+    ],
+    "likesCount": 40,
+    "createdAt": "2026-06-12T00:00:00.000Z"
+  },
+  {
+    "id": "user-024",
+    "name": "Валерия",
+    "birthDate": "1988-01-01",
+    "gender": "preferNotToSay",
+    "cityId": "novosibirsk",
+    "avatarUrl": "/images/users/user-024/avatar.webp",
+    "description": "С удовольствием пробую новое и охотно делюсь тем, что уже хорошо умею.",
+    "offeredSkill": {
+      "title": "Простой семейный бюджет",
+      "categoryId": "home-comfort",
+      "subcategoryId": "home-finance",
+      "description": "Покажу рабочие приёмы, объясню частые ошибки и дам упражнения, которые можно продолжать выполнять самостоятельно.",
+      "imageUrls": [
+        "/images/users/user-024/skills/01.webp",
+        "/images/users/user-024/skills/02.webp",
+        "/images/users/user-024/skills/03.webp",
+        "/images/users/user-024/skills/04.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "houseplants",
+      "cognitive-techniques"
+    ],
+    "likesCount": 51,
+    "createdAt": "2025-09-05T00:00:00.000Z"
+  },
+  {
+    "id": "user-025",
+    "name": "Ольга",
+    "birthDate": "1987-02-04",
+    "gender": "female",
+    "cityId": "yekaterinburg",
+    "avatarUrl": "/images/users/user-025/avatar.webp",
+    "description": "Люблю узнавать новое, общаться с людьми и делиться практическим опытом.",
+    "offeredSkill": {
+      "title": "Домашняя выпечка для начинающих",
+      "categoryId": "home-comfort",
+      "subcategoryId": "cooking",
+      "description": "Сфокусируемся на понятной практике без перегруза теорией. После встречи останется набор шагов, по которым можно двигаться дальше.",
+      "imageUrls": [
+        "/images/users/user-025/skills/01.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "storage-organization"
+    ],
+    "likesCount": 28,
+    "createdAt": "2026-06-27T00:00:00.000Z"
+  },
+  {
+    "id": "user-026",
+    "name": "Алина",
+    "birthDate": "1967-03-07",
+    "gender": "female",
+    "cityId": "yekaterinburg",
+    "avatarUrl": "/images/users/user-026/avatar.webp",
+    "description": "Ценю спокойное обучение без спешки и люблю осваивать новые полезные навыки.",
+    "offeredSkill": {
+      "title": "Быстрые домашние ужины",
+      "categoryId": "home-comfort",
+      "subcategoryId": "cooking",
+      "description": "Подойдёт для начинающих. Разберём базовые принципы, потренируемся на практических примерах и составим понятный план дальнейшего развития.",
+      "imageUrls": [
+        "/images/users/user-026/skills/01.webp",
+        "/images/users/user-026/skills/02.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "learning-skills",
+      "teaching-skills",
+      "houseplants",
+      "mindfulness"
+    ],
+    "likesCount": 147,
+    "createdAt": "2026-03-28T00:00:00.000Z"
+  },
+  {
+    "id": "user-027",
+    "name": "Андрей",
+    "birthDate": "2006-04-10",
+    "gender": "male",
+    "cityId": "yekaterinburg",
+    "avatarUrl": "/images/users/user-027/avatar.webp",
+    "description": "Интересуюсь саморазвитием, путешествиями и обменом опытом с другими людьми.",
+    "offeredSkill": {
+      "title": "Уход за комнатными растениями",
+      "categoryId": "home-comfort",
+      "subcategoryId": "houseplants",
+      "description": "Обучение строится через практику: сначала разберём основу, затем закрепим её на конкретных упражнениях и типичных задачах.",
+      "imageUrls": [
+        "/images/users/user-027/skills/01.webp",
+        "/images/users/user-027/skills/02.webp",
+        "/images/users/user-027/skills/03.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "acting",
+      "cooking"
+    ],
+    "likesCount": 15,
+    "createdAt": "2026-05-07T00:00:00.000Z"
+  },
+  {
+    "id": "user-028",
+    "name": "Павел",
+    "birthDate": "2004-05-13",
+    "gender": "male",
+    "cityId": "yekaterinburg",
+    "avatarUrl": "/images/users/user-028/avatar.webp",
+    "description": "Предпочитаю практический подход и считаю, что лучше всего учиться через реальные задачи.",
+    "offeredSkill": {
+      "title": "Размножение и пересадка домашних растений",
+      "categoryId": "home-comfort",
+      "subcategoryId": "houseplants",
+      "description": "Помогу освоить навык с нуля или упорядочить уже имеющиеся знания. Темп и сложность можно подстроить под ваш уровень.",
+      "imageUrls": [
+        "/images/users/user-028/skills/01.webp",
+        "/images/users/user-028/skills/02.webp",
+        "/images/users/user-028/skills/03.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "work-life-balance",
+      "japanese"
+    ],
+    "likesCount": 34,
+    "createdAt": "2025-09-25T00:00:00.000Z"
+  },
+  {
+    "id": "user-029",
+    "name": "Татьяна",
+    "birthDate": "1993-06-16",
+    "gender": "female",
+    "cityId": "kazan",
+    "avatarUrl": "/images/users/user-029/avatar.webp",
+    "description": "Люблю творческие проекты, новые знакомства и понятные объяснения без лишней теории.",
+    "offeredSkill": {
+      "title": "Мелкий домашний ремонт своими руками",
+      "categoryId": "home-comfort",
+      "subcategoryId": "home-repair",
+      "description": "Покажу рабочие приёмы, объясню частые ошибки и дам упражнения, которые можно продолжать выполнять самостоятельно.",
+      "imageUrls": [
+        "/images/users/user-029/skills/01.webp",
+        "/images/users/user-029/skills/02.webp",
+        "/images/users/user-029/skills/03.webp",
+        "/images/users/user-029/skills/04.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "english"
+    ],
+    "likesCount": 42,
+    "createdAt": "2025-09-10T00:00:00.000Z"
+  },
+  {
+    "id": "user-030",
+    "name": "Диана",
+    "birthDate": "1995-07-19",
+    "gender": "female",
+    "cityId": "kazan",
+    "avatarUrl": "/images/users/user-030/avatar.webp",
+    "description": "С удовольствием пробую новое и охотно делюсь тем, что уже хорошо умею.",
+    "offeredSkill": {
+      "title": "Удобные системы хранения в квартире",
+      "categoryId": "home-comfort",
+      "subcategoryId": "storage-organization",
+      "description": "Сфокусируемся на понятной практике без перегруза теорией. После встречи останется набор шагов, по которым можно двигаться дальше.",
+      "imageUrls": [
+        "/images/users/user-030/skills/01.webp",
+        "/images/users/user-030/skills/02.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "photography",
+      "music-sound",
+      "yoga-meditation"
+    ],
+    "likesCount": 36,
+    "createdAt": "2025-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "user-031",
+    "name": "Руслан",
+    "birthDate": "1995-08-22",
+    "gender": "male",
+    "cityId": "kazan",
+    "avatarUrl": "/images/users/user-031/avatar.webp",
+    "description": "Люблю узнавать новое, общаться с людьми и делиться практическим опытом.",
+    "offeredSkill": {
+      "title": "Скетчинг для начинающих",
+      "categoryId": "creativity-art",
+      "subcategoryId": "drawing-illustration",
+      "description": "Подойдёт для начинающих. Разберём базовые принципы, потренируемся на практических примерах и составим понятный план дальнейшего развития.",
+      "imageUrls": [
+        "/images/users/user-031/skills/01.webp",
+        "/images/users/user-031/skills/02.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "cooking"
+    ],
+    "likesCount": 13,
+    "createdAt": "2026-06-09T00:00:00.000Z"
+  },
+  {
+    "id": "user-032",
+    "name": "Марина",
+    "birthDate": "2007-01-01",
+    "gender": "female",
+    "cityId": "krasnoyarsk",
+    "avatarUrl": null,
+    "description": "Ценю спокойное обучение без спешки и люблю осваивать новые полезные навыки.",
+    "offeredSkill": {
+      "title": "Портретная фотография для начинающих",
+      "categoryId": "creativity-art",
+      "subcategoryId": "photography",
+      "description": "Обучение строится через практику: сначала разберём основу, затем закрепим её на конкретных упражнениях и типичных задачах.",
+      "imageUrls": [
+        "/images/users/user-032/skills/01.webp",
+        "/images/users/user-032/skills/02.webp",
+        "/images/users/user-032/skills/03.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "spanish",
+      "video-editing",
+      "personal-development",
+      "nutrition-wellness"
+    ],
+    "likesCount": 7,
+    "createdAt": "2026-03-20T00:00:00.000Z"
+  },
+  {
+    "id": "user-033",
+    "name": "Кирилл",
+    "birthDate": "1984-02-04",
+    "gender": "male",
+    "cityId": "krasnoyarsk",
+    "avatarUrl": "/images/users/user-033/avatar.webp",
+    "description": "Интересуюсь саморазвитием, путешествиями и обменом опытом с другими людьми.",
+    "offeredSkill": {
+      "title": "Мобильная фотография каждый день",
+      "categoryId": "creativity-art",
+      "subcategoryId": "photography",
+      "description": "Помогу освоить навык с нуля или упорядочить уже имеющиеся знания. Темп и сложность можно подстроить под ваш уровень.",
+      "imageUrls": [
+        "/images/users/user-033/skills/01.webp",
+        "/images/users/user-033/skills/02.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "houseplants",
+      "cleaning-organization",
+      "german"
+    ],
+    "likesCount": 18,
+    "createdAt": "2026-08-24T00:00:00.000Z"
+  },
+  {
+    "id": "user-034",
+    "name": "Максим",
+    "birthDate": "1999-03-07",
+    "gender": "male",
+    "cityId": "krasnoyarsk",
+    "avatarUrl": "/images/users/user-034/avatar.webp",
+    "description": "Предпочитаю практический подход и считаю, что лучше всего учиться через реальные задачи.",
+    "offeredSkill": {
+      "title": "Монтаж коротких видео",
+      "categoryId": "creativity-art",
+      "subcategoryId": "video-editing",
+      "description": "Покажу рабочие приёмы, объясню частые ошибки и дам упражнения, которые можно продолжать выполнять самостоятельно.",
+      "imageUrls": [
+        "/images/users/user-034/skills/01.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "coaching",
+      "japanese"
+    ],
+    "likesCount": 26,
+    "createdAt": "2026-01-23T00:00:00.000Z"
+  },
+  {
+    "id": "user-035",
+    "name": "Светлана",
+    "birthDate": "1989-04-10",
+    "gender": "female",
+    "cityId": "nizhny-novgorod",
+    "avatarUrl": "/images/users/user-035/avatar.webp",
+    "description": "Люблю творческие проекты, новые знакомства и понятные объяснения без лишней теории.",
+    "offeredSkill": {
+      "title": "Основы видеомонтажа и ритма",
+      "categoryId": "creativity-art",
+      "subcategoryId": "video-editing",
+      "description": "Сфокусируемся на понятной практике без перегруза теорией. После встречи останется набор шагов, по которым можно двигаться дальше.",
+      "imageUrls": [
+        "/images/users/user-035/skills/01.webp",
+        "/images/users/user-035/skills/02.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "photography",
+      "decor-diy",
+      "cognitive-techniques"
+    ],
+    "likesCount": 6,
+    "createdAt": "2026-08-12T00:00:00.000Z"
+  },
+  {
+    "id": "user-036",
+    "name": "Людмила",
+    "birthDate": "1997-05-13",
+    "gender": "female",
+    "cityId": "nizhny-novgorod",
+    "avatarUrl": "/images/users/user-036/avatar.webp",
+    "description": "С удовольствием пробую новое и охотно делюсь тем, что уже хорошо умею.",
+    "offeredSkill": {
+      "title": "Игра на акустической гитаре",
+      "categoryId": "creativity-art",
+      "subcategoryId": "music-sound",
+      "description": "Подойдёт для начинающих. Разберём базовые принципы, потренируемся на практических примерах и составим понятный план дальнейшего развития.",
+      "imageUrls": [
+        "/images/users/user-036/skills/01.webp",
+        "/images/users/user-036/skills/02.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "team-management"
+    ],
+    "likesCount": 48,
+    "createdAt": "2026-05-15T00:00:00.000Z"
+  },
+  {
+    "id": "user-037",
+    "name": "Владимир",
+    "birthDate": "2005-06-16",
+    "gender": "male",
+    "cityId": "nizhny-novgorod",
+    "avatarUrl": "/images/users/user-037/avatar.webp",
+    "description": "Люблю узнавать новое, общаться с людьми и делиться практическим опытом.",
+    "offeredSkill": {
+      "title": "Основы игры на барабанах",
+      "categoryId": "creativity-art",
+      "subcategoryId": "music-sound",
+      "description": "Обучение строится через практику: сначала разберём основу, затем закрепим её на конкретных упражнениях и типичных задачах.",
+      "imageUrls": [
+        "/images/users/user-037/skills/01.webp",
+        "/images/users/user-037/skills/02.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "personal-brand",
+      "project-management"
+    ],
+    "likesCount": 5,
+    "createdAt": "2026-07-06T00:00:00.000Z"
+  },
+  {
+    "id": "user-038",
+    "name": "Оксана",
+    "birthDate": "1991-07-19",
+    "gender": "female",
+    "cityId": "chelyabinsk",
+    "avatarUrl": null,
+    "description": "Ценю спокойное обучение без спешки и люблю осваивать новые полезные навыки.",
+    "offeredSkill": {
+      "title": "Основы вокала",
+      "categoryId": "creativity-art",
+      "subcategoryId": "music-sound",
+      "description": "Помогу освоить навык с нуля или упорядочить уже имеющиеся знания. Темп и сложность можно подстроить под ваш уровень.",
+      "imageUrls": [
+        "/images/users/user-038/skills/01.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "english",
+      "photography",
+      "yoga-meditation"
+    ],
+    "likesCount": 14,
+    "createdAt": "2026-08-26T00:00:00.000Z"
+  },
+  {
+    "id": "user-039",
+    "name": "Егор",
+    "birthDate": "2000-08-22",
+    "gender": "male",
+    "cityId": "chelyabinsk",
+    "avatarUrl": "/images/users/user-039/avatar.webp",
+    "description": "Интересуюсь саморазвитием, путешествиями и обменом опытом с другими людьми.",
+    "offeredSkill": {
+      "title": "Домашняя запись и работа со звуком",
+      "categoryId": "creativity-art",
+      "subcategoryId": "music-sound",
+      "description": "Покажу рабочие приёмы, объясню частые ошибки и дам упражнения, которые можно продолжать выполнять самостоятельно.",
+      "imageUrls": [
+        "/images/users/user-039/skills/01.webp",
+        "/images/users/user-039/skills/02.webp",
+        "/images/users/user-039/skills/03.webp",
+        "/images/users/user-039/skills/04.webp",
+        "/images/users/user-039/skills/05.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "cooking",
+      "spanish",
+      "video-editing"
+    ],
+    "likesCount": 71,
+    "createdAt": "2026-05-23T00:00:00.000Z"
+  },
+  {
+    "id": "user-040",
+    "name": "Лилия",
+    "birthDate": "1993-01-01",
+    "gender": "preferNotToSay",
+    "cityId": "ufa",
+    "avatarUrl": "/images/users/user-040/avatar.webp",
+    "description": "Предпочитаю практический подход и считаю, что лучше всего учиться через реальные задачи.",
+    "offeredSkill": {
+      "title": "Свобода речи и актёрская импровизация",
+      "categoryId": "creativity-art",
+      "subcategoryId": "acting",
+      "description": "Сфокусируемся на понятной практике без перегруза теорией. После встречи останется набор шагов, по которым можно двигаться дальше.",
+      "imageUrls": [
+        "/images/users/user-040/skills/01.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "personal-development"
+    ],
+    "likesCount": 11,
+    "createdAt": "2026-04-05T00:00:00.000Z"
+  },
+  {
+    "id": "user-041",
+    "name": "Тимур",
+    "birthDate": "1995-02-04",
+    "gender": "male",
+    "cityId": "ufa",
+    "avatarUrl": "/images/users/user-041/avatar.webp",
+    "description": "Люблю творческие проекты, новые знакомства и понятные объяснения без лишней теории.",
+    "offeredSkill": {
+      "title": "Как начать писать рассказы",
+      "categoryId": "creativity-art",
+      "subcategoryId": "creative-writing",
+      "description": "Подойдёт для начинающих. Разберём базовые принципы, потренируемся на практических примерах и составим понятный план дальнейшего развития.",
+      "imageUrls": [
+        "/images/users/user-041/skills/01.webp",
+        "/images/users/user-041/skills/02.webp",
+        "/images/users/user-041/skills/03.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "nutrition-wellness"
+    ],
+    "likesCount": 21,
+    "createdAt": "2026-08-02T00:00:00.000Z"
+  },
+  {
+    "id": "user-042",
+    "name": "Алёна",
+    "birthDate": "1997-03-07",
+    "gender": "female",
+    "cityId": "krasnodar",
+    "avatarUrl": "/images/users/user-042/avatar.webp",
+    "description": "С удовольствием пробую новое и охотно делюсь тем, что уже хорошо умею.",
+    "offeredSkill": {
+      "title": "Творческие практики для самовыражения",
+      "categoryId": "creativity-art",
+      "subcategoryId": "art-therapy",
+      "description": "Обучение строится через практику: сначала разберём основу, затем закрепим её на конкретных упражнениях и типичных задачах.",
+      "imageUrls": [
+        "/images/users/user-042/skills/01.webp",
+        "/images/users/user-042/skills/02.webp",
+        "/images/users/user-042/skills/03.webp",
+        "/images/users/user-042/skills/04.webp",
+        "/images/users/user-042/skills/05.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "houseplants"
+    ],
+    "likesCount": 2,
+    "createdAt": "2026-05-18T00:00:00.000Z"
+  },
+  {
+    "id": "user-043",
+    "name": "Константин",
+    "birthDate": "1982-04-10",
+    "gender": "male",
+    "cityId": "krasnodar",
+    "avatarUrl": "/images/users/user-043/avatar.webp",
+    "description": "Люблю узнавать новое, общаться с людьми и делиться практическим опытом.",
+    "offeredSkill": {
+      "title": "Декор для дома своими руками",
+      "categoryId": "creativity-art",
+      "subcategoryId": "decor-diy",
+      "description": "Помогу освоить навык с нуля или упорядочить уже имеющиеся знания. Темп и сложность можно подстроить под ваш уровень.",
+      "imageUrls": [
+        "/images/users/user-043/skills/01.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "mindfulness",
+      "speed-reading",
+      "home-finance"
+    ],
+    "likesCount": 6,
+    "createdAt": "2025-11-14T00:00:00.000Z"
+  },
+  {
+    "id": "user-044",
+    "name": "Надежда",
+    "birthDate": "1997-05-13",
+    "gender": "female",
+    "cityId": "samara",
+    "avatarUrl": "/images/users/user-044/avatar.webp",
+    "description": "Ценю спокойное обучение без спешки и люблю осваивать новые полезные навыки.",
+    "offeredSkill": {
+      "title": "Постановка личных целей",
+      "categoryId": "education-development",
+      "subcategoryId": "personal-development",
+      "description": "Покажу рабочие приёмы, объясню частые ошибки и дам упражнения, которые можно продолжать выполнять самостоятельно.",
+      "imageUrls": [
+        "/images/users/user-044/skills/01.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "german",
+      "learning-skills"
+    ],
+    "likesCount": 50,
+    "createdAt": "2026-05-31T00:00:00.000Z"
+  },
+  {
+    "id": "user-045",
+    "name": "Артём",
+    "birthDate": "1991-06-16",
+    "gender": "male",
+    "cityId": "samara",
+    "avatarUrl": "/images/users/user-045/avatar.webp",
+    "description": "Интересуюсь саморазвитием, путешествиями и обменом опытом с другими людьми.",
+    "offeredSkill": {
+      "title": "Как выстроить полезные привычки",
+      "categoryId": "education-development",
+      "subcategoryId": "personal-development",
+      "description": "Сфокусируемся на понятной практике без перегруза теорией. После встречи останется набор шагов, по которым можно двигаться дальше.",
+      "imageUrls": [
+        "/images/users/user-045/skills/01.webp",
+        "/images/users/user-045/skills/02.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "japanese"
+    ],
+    "likesCount": 29,
+    "createdAt": "2026-01-08T00:00:00.000Z"
+  },
+  {
+    "id": "user-046",
+    "name": "Вадим",
+    "birthDate": "1994-07-19",
+    "gender": "male",
+    "cityId": "rostov-on-don",
+    "avatarUrl": null,
+    "description": "Предпочитаю практический подход и считаю, что лучше всего учиться через реальные задачи.",
+    "offeredSkill": {
+      "title": "Как учиться системно",
+      "categoryId": "education-development",
+      "subcategoryId": "learning-skills",
+      "description": "Подойдёт для начинающих. Разберём базовые принципы, потренируемся на практических примерах и составим понятный план дальнейшего развития.",
+      "imageUrls": [
+        "/images/users/user-046/skills/01.webp",
+        "/images/users/user-046/skills/02.webp",
+        "/images/users/user-046/skills/03.webp",
+        "/images/users/user-046/skills/04.webp",
+        "/images/users/user-046/skills/05.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "creative-writing",
+      "entrepreneurship"
+    ],
+    "likesCount": 54,
+    "createdAt": "2025-09-15T00:00:00.000Z"
+  },
+  {
+    "id": "user-047",
+    "name": "Евгения",
+    "birthDate": "1983-08-22",
+    "gender": "female",
+    "cityId": "omsk",
+    "avatarUrl": "/images/users/user-047/avatar.webp",
+    "description": "Люблю творческие проекты, новые знакомства и понятные объяснения без лишней теории.",
+    "offeredSkill": {
+      "title": "Техники запоминания информации",
+      "categoryId": "education-development",
+      "subcategoryId": "cognitive-techniques",
+      "description": "Обучение строится через практику: сначала разберём основу, затем закрепим её на конкретных упражнениях и типичных задачах.",
+      "imageUrls": [
+        "/images/users/user-047/skills/01.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "art-therapy",
+      "chinese"
+    ],
+    "likesCount": 0,
+    "createdAt": "2026-08-28T00:00:00.000Z"
+  },
+  {
+    "id": "user-048",
+    "name": "Денис",
+    "birthDate": "1987-01-01",
+    "gender": "male",
+    "cityId": "omsk",
+    "avatarUrl": "/images/users/user-048/avatar.webp",
+    "description": "С удовольствием пробую новое и охотно делюсь тем, что уже хорошо умею.",
+    "offeredSkill": {
+      "title": "Основы скорочтения",
+      "categoryId": "education-development",
+      "subcategoryId": "speed-reading",
+      "description": "Помогу освоить навык с нуля или упорядочить уже имеющиеся знания. Темп и сложность можно подстроить под ваш уровень.",
+      "imageUrls": [
+        "/images/users/user-048/skills/01.webp",
+        "/images/users/user-048/skills/02.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "english",
+      "photography"
+    ],
+    "likesCount": 23,
+    "createdAt": "2026-06-21T00:00:00.000Z"
+  },
+  {
+    "id": "user-049",
+    "name": "Кристина",
+    "birthDate": "2001-02-04",
+    "gender": "female",
+    "cityId": "voronezh",
+    "avatarUrl": "/images/users/user-049/avatar.webp",
+    "description": "Люблю узнавать новое, общаться с людьми и делиться практическим опытом.",
+    "offeredSkill": {
+      "title": "Как объяснять сложное простыми словами",
+      "categoryId": "education-development",
+      "subcategoryId": "teaching-skills",
+      "description": "Покажу рабочие приёмы, объясню частые ошибки и дам упражнения, которые можно продолжать выполнять самостоятельно.",
+      "imageUrls": [
+        "/images/users/user-049/skills/01.webp",
+        "/images/users/user-049/skills/02.webp",
+        "/images/users/user-049/skills/03.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "music-sound",
+      "yoga-meditation"
+    ],
+    "likesCount": 8,
+    "createdAt": "2026-04-29T00:00:00.000Z"
+  },
+  {
+    "id": "user-050",
+    "name": "Глеб",
+    "birthDate": "1973-03-07",
+    "gender": "male",
+    "cityId": "voronezh",
+    "avatarUrl": "/images/users/user-050/avatar.webp",
+    "description": "Ценю спокойное обучение без спешки и люблю осваивать новые полезные навыки.",
+    "offeredSkill": {
+      "title": "Коучинговые вопросы для самоанализа",
+      "categoryId": "education-development",
+      "subcategoryId": "coaching",
+      "description": "Сфокусируемся на понятной практике без перегруза теорией. После встречи останется набор шагов, по которым можно двигаться дальше.",
+      "imageUrls": [
+        "/images/users/user-050/skills/01.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "cooking",
+      "spanish",
+      "video-editing"
+    ],
+    "likesCount": 1,
+    "createdAt": "2025-12-09T00:00:00.000Z"
+  },
+  {
+    "id": "user-051",
+    "name": "Любовь",
+    "birthDate": "1980-04-10",
+    "gender": "female",
+    "cityId": "perm",
+    "avatarUrl": "/images/users/user-051/avatar.webp",
+    "description": "Интересуюсь саморазвитием, путешествиями и обменом опытом с другими людьми.",
+    "offeredSkill": {
+      "title": "Практика постановки целей через коучинг",
+      "categoryId": "education-development",
+      "subcategoryId": "coaching",
+      "description": "Подойдёт для начинающих. Разберём базовые принципы, потренируемся на практических примерах и составим понятный план дальнейшего развития.",
+      "imageUrls": [
+        "/images/users/user-051/skills/01.webp",
+        "/images/users/user-051/skills/02.webp",
+        "/images/users/user-051/skills/03.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "personal-development",
+      "nutrition-wellness",
+      "houseplants"
+    ],
+    "likesCount": 30,
+    "createdAt": "2026-04-13T00:00:00.000Z"
+  },
+  {
+    "id": "user-052",
+    "name": "Степан",
+    "birthDate": "2006-05-13",
+    "gender": "male",
+    "cityId": "perm",
+    "avatarUrl": "/images/users/user-052/avatar.webp",
+    "description": "Предпочитаю практический подход и считаю, что лучше всего учиться через реальные задачи.",
+    "offeredSkill": {
+      "title": "Йога для начинающих",
+      "categoryId": "health-lifestyle",
+      "subcategoryId": "yoga-meditation",
+      "description": "Обучение строится через практику: сначала разберём основу, затем закрепим её на конкретных упражнениях и типичных задачах.",
+      "imageUrls": [
+        "/images/users/user-052/skills/01.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "houseplants"
+    ],
+    "likesCount": 4,
+    "createdAt": "2026-08-19T00:00:00.000Z"
+  },
+  {
+    "id": "user-053",
+    "name": "Инна",
+    "birthDate": "1974-06-16",
+    "gender": "female",
+    "cityId": "volgograd",
+    "avatarUrl": "/images/users/user-053/avatar.webp",
+    "description": "Люблю творческие проекты, новые знакомства и понятные объяснения без лишней теории.",
+    "offeredSkill": {
+      "title": "Медитация и дыхательные практики",
+      "categoryId": "health-lifestyle",
+      "subcategoryId": "yoga-meditation",
+      "description": "Помогу освоить навык с нуля или упорядочить уже имеющиеся знания. Темп и сложность можно подстроить под ваш уровень.",
+      "imageUrls": [
+        "/images/users/user-053/skills/01.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "japanese",
+      "speed-reading"
+    ],
+    "likesCount": 76,
+    "createdAt": "2026-02-07T00:00:00.000Z"
+  },
+  {
+    "id": "user-054",
+    "name": "Антон",
+    "birthDate": "1963-07-19",
+    "gender": "male",
+    "cityId": "volgograd",
+    "avatarUrl": "/images/users/user-054/avatar.webp",
+    "description": "С удовольствием пробую новое и охотно делюсь тем, что уже хорошо умею.",
+    "offeredSkill": {
+      "title": "Основы сбалансированного питания",
+      "categoryId": "health-lifestyle",
+      "subcategoryId": "nutrition-wellness",
+      "description": "Покажу рабочие приёмы, объясню частые ошибки и дам упражнения, которые можно продолжать выполнять самостоятельно.",
+      "imageUrls": [
+        "/images/users/user-054/skills/01.webp",
+        "/images/users/user-054/skills/02.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "marketing-advertising",
+      "ielts-toefl-preparation",
+      "learning-skills",
+      "sleep-recovery"
+    ],
+    "likesCount": 132,
+    "createdAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "id": "user-055",
+    "name": "Лариса",
+    "birthDate": "1975-08-22",
+    "gender": "female",
+    "cityId": "saratov",
+    "avatarUrl": "/images/users/user-055/avatar.webp",
+    "description": "Люблю узнавать новое, общаться с людьми и делиться практическим опытом.",
+    "offeredSkill": {
+      "title": "Полезные привычки в питании",
+      "categoryId": "health-lifestyle",
+      "subcategoryId": "nutrition-wellness",
+      "description": "Сфокусируемся на понятной практике без перегруза теорией. После встречи останется набор шагов, по которым можно двигаться дальше.",
+      "imageUrls": [
+        "/images/users/user-055/skills/01.webp",
+        "/images/users/user-055/skills/02.webp",
+        "/images/users/user-055/skills/03.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "art-therapy"
+    ],
+    "likesCount": 99,
+    "createdAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "user-056",
+    "name": "Милана",
+    "birthDate": "1994-01-01",
+    "gender": "preferNotToSay",
+    "cityId": "tyumen",
+    "avatarUrl": "/images/users/user-056/avatar.webp",
+    "description": "Ценю спокойное обучение без спешки и люблю осваивать новые полезные навыки.",
+    "offeredSkill": {
+      "title": "Бережные практики эмоциональной самоподдержки",
+      "categoryId": "health-lifestyle",
+      "subcategoryId": "mental-health",
+      "description": "Подойдёт для начинающих. Разберём базовые принципы, потренируемся на практических примерах и составим понятный план дальнейшего развития.",
+      "imageUrls": [
+        "/images/users/user-056/skills/01.webp",
+        "/images/users/user-056/skills/02.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "mindfulness",
+      "english"
+    ],
+    "likesCount": 16,
+    "createdAt": "2026-08-22T00:00:00.000Z"
+  },
+  {
+    "id": "user-057",
+    "name": "Вячеслав",
+    "birthDate": "1985-02-04",
+    "gender": "male",
+    "cityId": "tyumen",
+    "avatarUrl": "/images/users/user-057/avatar.webp",
+    "description": "Интересуюсь саморазвитием, путешествиями и обменом опытом с другими людьми.",
+    "offeredSkill": {
+      "title": "Практики осознанности на каждый день",
+      "categoryId": "health-lifestyle",
+      "subcategoryId": "mindfulness",
+      "description": "Обучение строится через практику: сначала разберём основу, затем закрепим её на конкретных упражнениях и типичных задачах.",
+      "imageUrls": [
+        "/images/users/user-057/skills/01.webp",
+        "/images/users/user-057/skills/02.webp",
+        "/images/users/user-057/skills/03.webp",
+        "/images/users/user-057/skills/04.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "photography"
+    ],
+    "likesCount": 94,
+    "createdAt": "2026-06-03T00:00:00.000Z"
+  },
+  {
+    "id": "user-058",
+    "name": "Иван",
+    "birthDate": "2005-03-07",
+    "gender": "male",
+    "cityId": "tolyatti",
+    "avatarUrl": "/images/users/user-058/avatar.webp",
+    "description": "Предпочитаю практический подход и считаю, что лучше всего учиться через реальные задачи.",
+    "offeredSkill": {
+      "title": "Домашние тренировки без оборудования",
+      "categoryId": "health-lifestyle",
+      "subcategoryId": "physical-training",
+      "description": "Помогу освоить навык с нуля или упорядочить уже имеющиеся знания. Темп и сложность можно подстроить под ваш уровень.",
+      "imageUrls": [
+        "/images/users/user-058/skills/01.webp",
+        "/images/users/user-058/skills/02.webp",
+        "/images/users/user-058/skills/03.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "music-sound",
+      "yoga-meditation"
+    ],
+    "likesCount": 3,
+    "createdAt": "2025-12-24T00:00:00.000Z"
+  },
+  {
+    "id": "user-059",
+    "name": "Амина",
+    "birthDate": "2001-04-10",
+    "gender": "female",
+    "cityId": "makhachkala",
+    "avatarUrl": "/images/users/user-059/avatar.webp",
+    "description": "Люблю творческие проекты, новые знакомства и понятные объяснения без лишней теории.",
+    "offeredSkill": {
+      "title": "Как выстроить стабильный режим сна",
+      "categoryId": "health-lifestyle",
+      "subcategoryId": "sleep-recovery",
+      "description": "Покажу рабочие приёмы, объясню частые ошибки и дам упражнения, которые можно продолжать выполнять самостоятельно.",
+      "imageUrls": [
+        "/images/users/user-059/skills/01.webp",
+        "/images/users/user-059/skills/02.webp",
+        "/images/users/user-059/skills/03.webp",
+        "/images/users/user-059/skills/04.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "team-management",
+      "marketing-advertising"
+    ],
+    "likesCount": 8,
+    "createdAt": "2026-02-12T00:00:00.000Z"
+  },
+  {
+    "id": "user-060",
+    "name": "Вера",
+    "birthDate": "2002-05-13",
+    "gender": "female",
+    "cityId": "irkutsk",
+    "avatarUrl": "/images/users/user-060/avatar.webp",
+    "description": "С удовольствием пробую новое и охотно делюсь тем, что уже хорошо умею.",
+    "offeredSkill": {
+      "title": "Баланс работы и личного времени",
+      "categoryId": "health-lifestyle",
+      "subcategoryId": "work-life-balance",
+      "description": "Сфокусируемся на понятной практике без перегруза теорией. После встречи останется набор шагов, по которым можно двигаться дальше.",
+      "imageUrls": [
+        "/images/users/user-060/skills/01.webp",
+        "/images/users/user-060/skills/02.webp",
+        "/images/users/user-060/skills/03.webp"
+      ]
+    },
+    "learningSubcategoryIds": [
+      "sales-negotiations"
+    ],
+    "likesCount": 65,
+    "createdAt": "2026-02-22T00:00:00.000Z"
+  }
+]

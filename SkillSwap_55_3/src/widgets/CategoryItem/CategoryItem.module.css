@@ -1,0 +1,76 @@
+.item {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-12);
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: var(--space-8);
+  border-radius: 100px;
+  flex-shrink: 0;
+}
+
+.icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+  flex: 1;
+}
+
+.subcategories {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+}
+
+.icon-business {
+  background-color: var(--color-tag-business);
+}
+
+.icon-creative {
+  background-color: var(--color-tag-creative);
+}
+
+.icon-languages {
+  background-color: var(--color-tag-languages);
+}
+
+.icon-education {
+  background-color: var(--color-tag-education);
+}
+
+.icon-home {
+  background-color: var(--color-tag-home);
+}
+
+.icon-health {
+  background-color: var(--color-tag-health);
+}
+
+.title {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-h2);
+  letter-spacing: -0.264px;
+  color: var(--color-text);
+}
+
+.subcategory {
+  font-family: var(--font-body);
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-body);
+  letter-spacing: 0.32px;
+  color: var(--color-text);
+}

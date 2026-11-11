@@ -1,0 +1,46 @@
+.tag {
+  border-radius: var(--radius-pill);
+  display: inline-block;
+  padding: var(--space-8) var(--space-12);
+  font-family: var(--font-body);
+  font-size: var(--font-size-caption);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-caption);
+  letter-spacing: var(--letter-spacing-caption);
+  color: var(--color-text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.languages {
+  background-color: var(--color-tag-languages);
+}
+
+.education {
+  background-color: var(--color-tag-education);
+}
+
+.health {
+  background-color: var(--color-tag-health);
+}
+
+.business {
+  background-color: var(--color-tag-business);
+}
+
+.creative {
+  background-color: var(--color-tag-creative);
+}
+
+.home {
+  background-color: var(--color-tag-home);
+}
+
+.more {
+  background-color: var(--color-tag-more);
+  flex-shrink: 0;
+  max-width: none;
+  overflow: visible;
+  text-overflow: clip;
+}

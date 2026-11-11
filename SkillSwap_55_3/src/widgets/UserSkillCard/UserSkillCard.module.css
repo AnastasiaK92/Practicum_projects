@@ -1,0 +1,18 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--space-20);
+  gap: var(--space-20);
+  width: 100%;
+  background: var(--color-surface);
+  border-radius: var(--radius-md);
+}
+
+.default {
+  max-width: 324px;
+}
+
+.details-button {
+  width: 100%;
+}
